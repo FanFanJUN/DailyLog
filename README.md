@@ -636,6 +636,7 @@ function beforeUpload(file) {
   return isJPG && isLt2M;
 }
 ```
+**[⬆ 返回顶部](#目录)**
 
 4. ### js对数组的操作
 
