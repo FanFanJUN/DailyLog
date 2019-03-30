@@ -10,7 +10,7 @@
 | --- | --------- | 
 |1 | [AntDesign走过的坑](#AntDesign走过的坑) |
 1. ### AntDesign走过的坑
-### ==AntD对request.js的封装==
+- AntD对request.js的封装
 
 ```
 原生：
@@ -55,7 +55,7 @@ if (
      delete newOptions.body;
  }
 ```
-#### ==对AntD model的封装==
+- 对AntD model的封装
 
 ```
 ==page==
@@ -158,7 +158,7 @@ export default {
 };
 
 ```
-#### Ant Design Pro内存溢出（out of memory）
+- Ant Design Pro内存溢出（out of memory）
 [increase-memory-limit](https://www.npmjs.com/package/increase-memory-limit)
 ```
 node_modules/.bin 下umi.cmd 和webpack.cmd加上
@@ -204,7 +204,7 @@ function showPaginationMessage(pageSize=10,pageNum,pageRange) {
 }
 
 ```
-#### Ant Design Table组件defaultExpandAllRows={true} 不起作用
+- Ant Design Table组件defaultExpandAllRows={true} 不起作用
 defaultExpandAllRows 
 就是像defaultValue那样 只在第一次渲染的时候起作用
 而很多时候我们的数据初始是空的
@@ -216,9 +216,9 @@ defaultExpandAllRows
 
 ```
 
-#### Ant Design table组件modal的destroyOnClose属性-关闭时销毁 Modal 里的子元素
+- Ant Design table组件modal的destroyOnClose属性-关闭时销毁 Modal 里的子元素
 
-#### 获取文字省略提示
+- 获取文字省略提示
 
 ```
 /**
@@ -250,7 +250,7 @@ export funcion getEllipsis(mes, length) {
     );
 }
 ```
-#### package文件解析
+- package文件解析
 
 [为AntD pro配置多个环境](https://umijs.org/zh/guide/env-variables.html)
 ```
