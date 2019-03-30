@@ -11,6 +11,7 @@
 
 1. ### AntDesign走过的坑
 - AntD对request.js的封装
+<!-- /TOC -->
 
 ```
 原生：
@@ -723,6 +724,4 @@ const arr = [1,2,3];
 const arrpop = arr.shift() // 1
 console.log(arr); //[2,3]
 ```
-
-
 **[⬆ 返回顶部](#目录)**
