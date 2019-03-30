@@ -280,6 +280,7 @@ $ npm init // 初始化
 所有node_modules/.bin/目录下的命令，都可以用npm run[命令]的格式运行。
 在命令行下，键入npm run，然后按tab键，就会显示所有可以使用的命令。
 ```
+
 2. ### js工具方法封装
 #### ==form表单删除空字符串==
 
@@ -469,6 +470,7 @@ if (
      delete newOptions.body;
  }
 ```
+
 3. ### 文件上传下载
 #### 下载服务器端文件,实现excel等文件的下载导出
 
@@ -677,6 +679,7 @@ function beforeUpload(file) {
   return isJPG && isLt2M;
 }
 ```
+
 4. ### js对数组的操作
 
 #### [JavaScript indexOf()方法](http://www.w3school.com.cn/jsref/jsref_indexOf.asp)
@@ -724,4 +727,5 @@ const arr = [1,2,3];
 const arrpop = arr.shift() // 1
 console.log(arr); //[2,3]
 ```
+
 **[⬆ 返回顶部](#目录)**
