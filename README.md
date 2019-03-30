@@ -280,9 +280,10 @@ $ npm init // 初始化
 所有node_modules/.bin/目录下的命令，都可以用npm run[命令]的格式运行。
 在命令行下，键入npm run，然后按tab键，就会显示所有可以使用的命令。
 ```
+**[⬆ 返回顶部](#目录)**
 
 2. ### js工具方法封装
-#### form表单删除空字符串
+- form表单删除空字符串
 
 ```
 function filterEmptyFileds(filedsValue){
@@ -299,7 +300,7 @@ function filterEmptyFileds(filedsValue){
     }
 }
 ```
-#### form表单转换对象元素数组为字符串
+- form表单转换对象元素数组为字符串
 
 ```
 function arrayFiledsToString(filedsValue){
@@ -319,7 +320,7 @@ function isArray (o) { //是否数组
     return Object.prototype.toString.call(o).slice(8, -1) === 'Array'；
 }
 ```
-#### js判空函数
+- js判空函数
 
 ```
 function checkNull(value){
@@ -351,7 +352,7 @@ function isEmptyArray(array) {
     return false;
     }
 ```
-#### 树形结构数据删除空的子级节点
+- 树形结构数据删除空的子级节点
 
 
 ```
@@ -379,7 +380,7 @@ const nodeData = [
 }
 const newnodeData = this.getSelectedNode(data);
 ```
-#### 百分数与小数互相转换
+- 百分数与小数互相转换
 
 ```
 		//1.先去掉百分号
@@ -401,7 +402,7 @@ const newnodeData = this.getSelectedNode(data);
 			return percent;
 		}
 ```
-#### 金钱格式化三位分
+- 金钱格式化三位分
 
 ```
  function toThousands(value) {
@@ -410,7 +411,7 @@ const newnodeData = this.getSelectedNode(data);
     return formatMoney;
 }
 ```
-#### 随机生成16位
+- 随机生成16位
 
 ```
 function createRouteid() {
@@ -425,54 +426,10 @@ function guid() {
     });
 }
 ```
-### AntD对request.js的封装
-
-```
-原生：
-if (
-    newOptions.method === 'POST' ||
-    newOptions.method === 'PUT' ||
-    newOptions.method === 'DELETE'
-  ) {
-    if (!(newOptions.body instanceof FormData)) {
-      newOptions.headers = {
-        Accept: 'application/json',
-        'Content-Type': 'application/json; charset=utf-8',
-        ...newOptions.headers,
-      };
-      newOptions.body = JSON.stringify(newOptions.body);
-      // 这里可以对请求体封装
-      newOptions.body = {
-        RequestHeader: {...RequestHeader},
-        RequestBody: {
-            ...newOptions.body
-        }
-      };
-      newOptions.body = JSON.stringify(newOptions.body);
-      //封装
-    } else {
-      // newOptions.body is FormData
-      newOptions.headers = {
-        Accept: 'application/json',
-        ...newOptions.headers,
-      };
-    }
-  }
- 原生request并未对GET请求封装，封装如下
- let urlStr = url;
- if (newOptions.method === 'GET') {
-     urlStr = `${url}?`;
-     Object.keys(newOptions.body).forEach(key=>{
-         const str = (newOptions.body)[key];
-         urlStr += `${key}=${str}&`;
-     });
-     urlStr = urlStr.substr(0,urlStr.length - 1);
-     delete newOptions.body;
- }
-```
+**[⬆ 返回顶部](#目录)**
 
 3. ### 文件上传下载
-#### 下载服务器端文件,实现excel等文件的下载导出
+- 下载服务器端文件,实现excel等文件的下载导出
 
 ```
 <Button onClick={this.download}>下载</Button>
@@ -513,7 +470,7 @@ download = () => {
     ReactDOM.unmountComponentAtNode(divElement);
   };
 ```
-#### Upload手动上传解析
+- Upload手动上传解析
 
 ```
 https://ant.design/components/upload-cn/
@@ -682,7 +639,7 @@ function beforeUpload(file) {
 
 4. ### js对数组的操作
 
-#### [JavaScript indexOf()方法](http://www.w3school.com.cn/jsref/jsref_indexOf.asp)
+- [JavaScript indexOf()方法](http://www.w3school.com.cn/jsref/jsref_indexOf.asp)
 
 ```
 stringObject.indexOf(searchvalue,fromindex)
@@ -691,12 +648,12 @@ stringObject.indexOf(searchvalue,fromindex)
 
 注释：如果要检索的字符串值没有出现，则该方法返回 -1。
 ```
-#### [JavaScript slice()截取字符串方法](http://www.w3school.com.cn/js/jsref_slice_array.asp)
+- [JavaScript slice()截取字符串方法](http://www.w3school.com.cn/js/jsref_slice_array.asp)
 
 ```
 ArrayObject.slice(start,end)
 ```
-#### Array.join()
+- Array.join()
 
 ```
 join()方法将数组中的所有元素转换成字符串，然后连接起来
@@ -704,14 +661,14 @@ join()默认是使用“,”作为分隔符，也可以在方法中指定分隔�
 const arr =  ['aaa', 'bbb', 'ccc'];
 const str = arr.join(',') // 'aaa,bbb,ccc'
 ```
-#### Array.split()
+- Array.split()
 
 ```
 const str = 'aaa,bbb,ccc';
 const arr = str.split(',') // ['aaa', 'bbb', 'ccc']
 ```
 
-#### Array.pop()
+- Array.pop()
 
 ```
 pop()方法用于删除并返回数组的最后一个元素
@@ -719,7 +676,7 @@ const arr = [1,2,3];
 const arrpop = arr.pop() // 3
 console.log(arr); //[1,2]
 ```
-#### Array.shift()
+- Array.shift()
 
 ```
 pop()方法用于删除并返回数组的第一个元素
@@ -727,5 +684,4 @@ const arr = [1,2,3];
 const arrpop = arr.shift() // 1
 console.log(arr); //[2,3]
 ```
-
 **[⬆ 返回顶部](#目录)**
