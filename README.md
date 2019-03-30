@@ -282,7 +282,7 @@ $ npm init // 初始化
 ```
 
 2. ### js工具方法封装
-#### ==form表单删除空字符串==
+#### form表单删除空字符串
 
 ```
 function filterEmptyFileds(filedsValue){
@@ -299,7 +299,7 @@ function filterEmptyFileds(filedsValue){
     }
 }
 ```
-#### ==form表单转换对象元素数组为字符串==
+#### form表单转换对象元素数组为字符串
 
 ```
 function arrayFiledsToString(filedsValue){
@@ -319,7 +319,7 @@ function isArray (o) { //是否数组
     return Object.prototype.toString.call(o).slice(8, -1) === 'Array'；
 }
 ```
-#### ==js判空函数==
+#### js判空函数
 
 ```
 function checkNull(value){
@@ -351,7 +351,7 @@ function isEmptyArray(array) {
     return false;
     }
 ```
-#### ==树形结构数据删除空的子级节点==
+#### 树形结构数据删除空的子级节点
 
 
 ```
@@ -379,7 +379,7 @@ const nodeData = [
 }
 const newnodeData = this.getSelectedNode(data);
 ```
-#### ==百分数与小数互相转换==
+#### 百分数与小数互相转换
 
 ```
 		//1.先去掉百分号
@@ -401,7 +401,7 @@ const newnodeData = this.getSelectedNode(data);
 			return percent;
 		}
 ```
-#### ==金钱格式化三位分==
+#### 金钱格式化三位分
 
 ```
  function toThousands(value) {
@@ -410,7 +410,7 @@ const newnodeData = this.getSelectedNode(data);
     return formatMoney;
 }
 ```
-#### ==随机生成16位==
+#### 随机生成16位
 
 ```
 function createRouteid() {
@@ -425,7 +425,7 @@ function guid() {
     });
 }
 ```
-### ==AntD对request.js的封装==
+### AntD对request.js的封装
 
 ```
 原生：
@@ -613,7 +613,7 @@ class Demo extends React.Component {
 
 ReactDOM.render(<Demo />, mountNode);
 ```
-==accept属性类型如下==：
+accept属性类型如下：
 ```
 后缀名       MIME名称
 *.3gpp    audio/3gpp, video/3gpp
@@ -665,7 +665,7 @@ ReactDOM.render(<Demo />, mountNode);
 *.zip            aplication/zip    
 *.xlsx     application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 ```
-==beforeUpload属性对上传文件格式及大小的限制==
+beforeUpload属性对上传文件格式及大小的限制
 ```
 function beforeUpload(file) {
   const isJPG = file.type === 'image/jpeg';
