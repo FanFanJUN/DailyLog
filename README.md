@@ -9,10 +9,11 @@
 |3 | [文件上传下载](#文件上传下载) |
 |4 | [js对数组的操作](#js对数组的操作) |
 
+<!-- /TOC -->
+#### NGINX
+##### [云服务器详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXinstall.md)
 1. ### AntDesign走过的坑
 - AntD对request.js的封装
-<!-- /TOC -->
-
 ```
 原生：
 if (
