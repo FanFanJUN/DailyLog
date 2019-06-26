@@ -12,7 +12,9 @@
 <!-- /TOC -->
 #### NGINX
 ##### [云服务器详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXinstall.md)
-##### [云服务器安装mysql详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/yummysql.md)
+##### [云服务器安装mysql详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/yumMysql.md)
+##### [云服务器安装java详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/yumJava.md)
+
 1. ### AntDesign走过的坑
 - AntD对request.js的封装
 ```
