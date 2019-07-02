@@ -57,7 +57,31 @@ May 15 15:22:19 **********2dru8ftg3uz systemd[1]: Started MySQL Server.
 #### 修改mysql密码方法
 
 ```
+此时mysql会为root随机生成一个密码在/var/log/mysqld.log 日志文件中
+
+输入命令：
+
+grep "password" /var/log/mysqld.log 
+
+密码就在这个日志的文件里
+
+/var/log/mysqld.log 
+
+例如：标注的就是密码
+
+2017-03-26T21:53:36.234194Z 1 [Note] A temporary password is generated for root@localhost: >b&uAW1D>n7k
+
+修改mysql密码命令：
+
  mysqladmin -u root -h 127.0.0.1 -p password
+```
+#### mysql 8.0密码修改时问题
+[解决MySQL8.0密码修改报错](https://blog.csdn.net/HaHa_Sir/article/details/80552663)
+```
+因密码过于简单（如：123456），不符合MySQL密码规范，会触发一个报错信息：
+
+ ERROR 1819 (HY000): Your password does not satisfy the current policy requirements。
+ 
 ```
 #### 外网/客户端(navicat等第三方工具)访问问题
 
@@ -94,4 +118,6 @@ mysql> flush privileges;
 若ERROR 1062 (23000): Duplicate entry '%-root' for key 'PRIMARY' 不予理会
 
 ```
+
+
 ![image](https://res.cloudinary.com/dnmtpbj1g/image/upload/v1561464199/mysql/mysql.jpg)
