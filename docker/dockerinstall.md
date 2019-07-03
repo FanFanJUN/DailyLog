@@ -1,4 +1,5 @@
 # 云服务器&&docker
+
 #### 命令查看你当前的内核版本
 
 ```
@@ -144,5 +145,15 @@ systemctl restart network
 #### docker图形化界面Portainer安装
 
 ```
+[root@VM_0_15_centos ~]# docker search docker
+
+[root@VM_0_15_centos ~]# docker pull docker.io/portainer/portainer
+
+[root@VM_0_15_centos ~]# docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+35b9a71f48db21300dc78dfea2d4705dcc9e82e9e396f47632efa4d839f8b858
 
 ```
+![portainer](https://res.cloudinary.com/dnmtpbj1g/image/upload/v1562071480/docker/portainer.jpg)
+
+#### [阮一峰docker入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
+#### [菜鸟教程](https://www.runoob.com/docker/docker-tutorial.html)
