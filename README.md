@@ -10,7 +10,7 @@
 |4 | [js对数组的操作](#js对数组的操作) |
 
 <!-- /TOC -->
-#### NGINX
+#### 服务器相关
 ##### [云服务器安装NGINX详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXinstall.md)
 ##### [云服务器安装NGINX配置文件解析](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXconf.md)
 ##### [云服务器安装mysql详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/yumMysql.md)
@@ -19,6 +19,7 @@
 #### DOCKER
 ##### [云服务器安装docker详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerinstall.md)
 ##### [docker详细安装nginx步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerNGINX.md)
+##### [Nginx配置参数详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXdetail.md)
 1. ### AntDesign走过的坑
 - AntD对request.js的封装
 ```
