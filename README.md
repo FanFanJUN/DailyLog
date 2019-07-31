@@ -20,6 +20,10 @@
 ##### [云服务器安装docker详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerinstall.md)
 ##### [docker详细安装nginx步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerNGINX.md)
 ##### [Nginx配置参数详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXdetail.md)
+
+#### Other
+##### [maven-pom文件详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/maven.md)
+##### [echarts自定义工具全屏](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/echartsfullscreen.md)
 1. ### AntDesign走过的坑
 - AntD对request.js的封装
 ```
