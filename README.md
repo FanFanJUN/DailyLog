@@ -1,5 +1,5 @@
 # STUDY-DAY-BY-DAY
-==记录开发所遇到的点点滴滴==
+<h1>记录开发所遇到的点点滴滴</h1>
 
 <!-- /TOC -->
 #### 服务器相关
@@ -16,6 +16,13 @@
 #### Other
 ##### [maven-pom文件详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/maven.md)
 ##### [echarts自定义工具全屏](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/echartsfullscreen.md)
+##### [自建ssr服务器教程](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/ssrbuild.md)
+
+### React系列
+#####  [在Raect中使用Echarts](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Echarts.md)
+#####  [React Router跳转及页面传值](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/routervalue.md)
+#####  [React技术栈学习路线](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Reactjsz.md)
+
 ### [AntDesign系列](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/antd/antds.md)
 - AntD对request.js的封装
 - 对AntD model的封装
@@ -50,5 +57,6 @@
 
 ### js系列
 - [js对数组的操作](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/array.md)
+- [JS数组遍历常用方法](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/jsfor.md)
 
 
