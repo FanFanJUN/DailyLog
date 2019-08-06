@@ -17,12 +17,26 @@
 ##### [maven-pom文件详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/maven.md)
 ##### [echarts自定义工具全屏](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/echartsfullscreen.md)
 ##### [自建ssr服务器教程](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/ssrbuild.md)
+##### [张鑫旭SVG小图标](https://www.zhangxinxu.com/sp/icon/)
 
 ### React系列
 #####  [在Raect中使用Echarts](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Echarts.md)
 #####  [React Router跳转及页面传值](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/routervalue.md)
 #####  [React技术栈学习路线](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Reactjsz.md)
+#####  [React 中组件间通信的几种方式](https://www.geekjc.com/post/5d1042d2d0c7531201ac2fa2)
+- 父组件向子组件通信
+- 子组件向父组件通信
+- 跨级组件之间通信context
+- 非嵌套组件间通信
+```
+install events依赖
+npm install events --save
+使用
+import { EventEmitter } from 'events';
+export default new EventEmitter();
 
+```
+![image](https://geekjc-img.geekjc.com/FiCoJwlG9mHzStmC0jq7CXaYudUQ)
 ### [AntDesign系列](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/antd/antds.md)
 - AntD对request.js的封装
 - 对AntD model的封装
@@ -59,4 +73,6 @@
 - [js对数组的操作](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/array.md)
 - [JS数组遍历常用方法](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/jsfor.md)
 
+### 开源系列
+- [spring-boot-plus](https://springboot.plus/)
 
