@@ -14,7 +14,17 @@
 ##### [Nginx配置参数详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXdetail.md)
 
 #### Other
-##### [maven-pom文件详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/maven.md)
+##### maven--plugin--pom--Usage
+- [maven-pom文件详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/maven.md)
+<br/>
+- [Apache Maven Assembly Plugin](http://maven.apache.org/plugins/maven-assembly-plugin/index.html)
+- [maven-assembly-plugin 入门指南](https://www.jianshu.com/p/14bcb17b99e0)
+- [maven-assembly-plugin的详细使用](https://blog.wfyvv.com/archives/25.html)
+- [利用assembly插件分环境打包配置文件](https://www.jianshu.com/p/7e7c7c95ff13)
+<br/>
+- [org.polago.maven.plugins---合并多个配置文件至一个文件](https://www.polago.org/merge-properties-maven-plugin/usage.html)
+<br/>
+- [maven-remote-resources-pluginmaven多项目资源共享](https://maven.apache.org/plugins/maven-remote-resources-plugin/examples/sharing-resources.html)
 ##### [echarts自定义工具全屏](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/echartsfullscreen.md)
 ##### [自建ssr服务器教程](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/ssrbuild.md)
 ##### [张鑫旭SVG小图标](https://www.zhangxinxu.com/sp/icon/)
@@ -75,4 +85,12 @@ export default new EventEmitter();
 
 ### 开源系列
 - [spring-boot-plus](https://springboot.plus/)
-
+### 推荐NPM依赖模块系列
+- [screenfull](https://github.com/sindresorhus/screenfull.js/)(<span style="color: rgb(243,121,52);">全屏插件</span>)
+- [react-qmap](https://github.com/yezihaohao/react-qmap)(<span style="color: rgb(243,121,52);">一个对腾讯web地图简单封装的React组件</span>)
+- [react-amap](https://github.com/ElemeFE/react-amap)(<span style="color: rgb(243,121,52);">基于 React 封装的高德地图组件</span>)
+- [animate.css](https://github.com/daneden/animate.css)(<span style="color: rgb(243,121,52);">css动画库</span>)
+- [JsBarcode](https://github.com/lindell/JsBarcode)(<span style="color: rgb(243,121,52);">前端JavaScript条形码生成解决方案</span>)
+- [react-barcode](https://github.com/kciter/react-barcode)(<span style="color: rgb(243,121,52);">在React中生成条形码</span>)
+- [qrcode.react](https://github.com/zpao/qrcode.react)(<span style="color: rgb(243,121,52);">A React component to generate QR codes</span>)
+- [react-particles-js](https://github.com/Wufe/react-particles-js)(<span style="color: rgb(243,121,52);">用来实现登录页背景的粒子效果</span>)

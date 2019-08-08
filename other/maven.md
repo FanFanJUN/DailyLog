@@ -222,3 +222,51 @@ classpath*：不仅包含class路径，还包括jar文件中(class路径)进行�
 - [maven-assembly-plugin 入门指南](https://www.jianshu.com/p/14bcb17b99e0)
 - [maven-assembly-plugin的详细使用](https://blog.wfyvv.com/archives/25.html)
 - [利用assembly插件分环境打包配置文件](https://www.jianshu.com/p/7e7c7c95ff13)
+
+### maven多项目资源共享maven-remote-resources-plugin
+
+```
+资源端：
+<!-- https://stackoverflow.com/questions/2362652/excluding-classes-in-maven-checkstyle-plugin-reports -->
+                <!-- https://stackoverflow.com/questions/14117709/configuring-maven-to-generate-output-outside-the-project-directory -->
+                <!-- https://blog.sonatype.com/2008/04/how-to-share-resources-across-projects-in-maven/ -->
+                <!-- http://maven.apache.org/plugins/maven-remote-resources-plugin/examples/sharing-resources.html -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-remote-resources-plugin</artifactId>
+                    <version>${maven-remote-resources-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>bundle</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <includes>
+                            <include>**/*</include>
+                        </includes>
+                    </configuration>
+                </plugin>
+```
+
+```
+引用端：
+<plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-remote-resources-plugin</artifactId>
+                    <version>${maven-remote-resources-plugin.version}</version>
+                    <configuration>
+                        <resourceBundles>
+                            <resourceBundle>com.laplace:laplace:${project.version}</resourceBundle>
+                        </resourceBundles>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>process</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+```
