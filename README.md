@@ -16,14 +16,11 @@
 #### Other
 ##### maven--plugin--pom--Usage
 - [maven-pom文件详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/maven.md)
-<br/>
 - [Apache Maven Assembly Plugin](http://maven.apache.org/plugins/maven-assembly-plugin/index.html)
 - [maven-assembly-plugin 入门指南](https://www.jianshu.com/p/14bcb17b99e0)
 - [maven-assembly-plugin的详细使用](https://blog.wfyvv.com/archives/25.html)
 - [利用assembly插件分环境打包配置文件](https://www.jianshu.com/p/7e7c7c95ff13)
-<br/>
 - [org.polago.maven.plugins---合并多个配置文件至一个文件](https://www.polago.org/merge-properties-maven-plugin/usage.html)
-<br/>
 - [maven-remote-resources-pluginmaven多项目资源共享](https://maven.apache.org/plugins/maven-remote-resources-plugin/examples/sharing-resources.html)
 ##### [echarts自定义工具全屏](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/echartsfullscreen.md)
 ##### [自建ssr服务器教程](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/ssrbuild.md)
