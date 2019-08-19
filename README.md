@@ -27,6 +27,19 @@
 ##### [张鑫旭SVG小图标](https://www.zhangxinxu.com/sp/icon/)
 
 ### React系列
+##### [es6的十大特性](https://www.geekjc.com/post/5d2fcbe9727a4f16c02d0fe1)
+
+- Default Parameters（默认参数） in ES6
+- Template Literals （模板文本）in ES6
+- Multi-line Strings （多行字符串）in ES6
+- Destructuring Assignment （解构赋值）in ES6
+- Enhanced Object Literals （增强的对象文本）in ES6
+- Arrow Functions （箭头函数）in ES6
+- Promises in ES6
+- Block-Scoped Constructs Let and Const（块作用域构造Let and Const）
+- Classes（类） in ES6
+- Modules（模块） in ES6
+#####  [Ant Design 组件库的官方教程，由 Ant Design 开发团队负责编写](https://www.yuque.com/ant-design/course)
 #####  [在Raect中使用Echarts](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Echarts.md)
 #####  [React Router跳转及页面传值](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/routervalue.md)
 #####  [React技术栈学习路线](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Reactjsz.md)
@@ -82,6 +95,7 @@ export default new EventEmitter();
 
 ### 开源系列
 - [spring-boot-plus](https://springboot.plus/)
+- [AntV-G6](https://www.yuque.com/antv/g6/intro)
 ### 推荐NPM依赖模块系列
 - [screenfull](https://github.com/sindresorhus/screenfull.js/)(<span style="color: rgb(243,121,52);">全屏插件</span>)
 - [react-qmap](https://github.com/yezihaohao/react-qmap)(<span style="color: rgb(243,121,52);">一个对腾讯web地图简单封装的React组件</span>)
