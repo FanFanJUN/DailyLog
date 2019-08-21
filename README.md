@@ -22,6 +22,7 @@
 - [利用assembly插件分环境打包配置文件](https://www.jianshu.com/p/7e7c7c95ff13)
 - [org.polago.maven.plugins---合并多个配置文件至一个文件](https://www.polago.org/merge-properties-maven-plugin/usage.html)
 - [maven-remote-resources-pluginmaven多项目资源共享](https://maven.apache.org/plugins/maven-remote-resources-plugin/examples/sharing-resources.html)
+##### [Github远程仓库和本地文件的关联](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/gitrelationgithub.md)
 ##### [echarts自定义工具全屏](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/echartsfullscreen.md)
 ##### [自建ssr服务器教程](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/ssrbuild.md)
 ##### [张鑫旭SVG小图标](https://www.zhangxinxu.com/sp/icon/)
@@ -96,6 +97,7 @@ export default new EventEmitter();
 ### 开源系列
 - [spring-boot-plus](https://springboot.plus/)
 - [AntV-G6](https://www.yuque.com/antv/g6/intro)
+- [AntV-G6可视化tree在React中最佳实践](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/G6Tree.js)
 ### 推荐NPM依赖模块系列
 - [screenfull](https://github.com/sindresorhus/screenfull.js/)(<span style="color: rgb(243,121,52);">全屏插件</span>)
 - [react-qmap](https://github.com/yezihaohao/react-qmap)(<span style="color: rgb(243,121,52);">一个对腾讯web地图简单封装的React组件</span>)
