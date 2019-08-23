@@ -107,3 +107,7 @@ export default new EventEmitter();
 - [react-barcode](https://github.com/kciter/react-barcode)(<span style="color: rgb(243,121,52);">在React中生成条形码</span>)
 - [qrcode.react](https://github.com/zpao/qrcode.react)(<span style="color: rgb(243,121,52);">A React component to generate QR codes</span>)
 - [react-particles-js](https://github.com/Wufe/react-particles-js)(<span style="color: rgb(243,121,52);">用来实现登录页背景的粒子效果</span>)
+
+### webpack
+#### webpack插件
+- [umi-plugin-qrcode运行时在控制台打印二维码](https://www.npmjs.com/package/umi-plugin-qrcode)
