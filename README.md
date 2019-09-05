@@ -111,6 +111,35 @@ export default new EventEmitter();
 - [react-barcode](https://github.com/kciter/react-barcode)(<span style="color: rgb(243,121,52);">在React中生成条形码</span>)
 - [qrcode.react](https://github.com/zpao/qrcode.react)(<span style="color: rgb(243,121,52);">A React component to generate QR codes</span>)
 - [react-particles-js](https://github.com/Wufe/react-particles-js)(<span style="color: rgb(243,121,52);">用来实现登录页背景的粒子效果</span>)
+- [sockette](https://github.com/lukeed/sockette)(<span style="color: rgb(243,121,52);">一个漂亮的 websocket 包装器，能够在断开后自动重连</span>)
+
+```
+install
+
+$ npm install --save sockette
+
+Usage
+
+const Sockette = require('sockette');
+
+const ws = new Sockette('ws://localhost:3000', {
+  timeout: 5e3,
+  maxAttempts: 10,
+  onopen: e => console.log('Connected!', e),
+  onmessage: e => console.log('Received:', e),
+  onreconnect: e => console.log('Reconnecting...', e),
+  onmaximum: e => console.log('Stop Attempting!', e),
+  onclose: e => console.log('Closed!', e),
+  onerror: e => console.log('Error:', e)
+});
+
+ws.send('Hello, world!');
+ws.json({type: 'ping'});
+ws.close(); // graceful shutdown
+
+// Reconnect 10s later
+setTimeout(ws.reconnect, 10e3);
+```
 
 ### webpack
 #### webpack插件
