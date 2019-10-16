@@ -51,5 +51,25 @@ $ git push <主机名> <分支名>
 在本地分支上合并远程分支
 $ git merge <主机名>/<分支名>
 ```
+#### git删除分支
+```
+删除本地分支： git branch -d branch
+删除远程分支：git push origin --delete branch
+```
+#### git 合并其他分支的部分提交代码到本分支
 
+```
+git cherry-pick commitID
+
+代码开发的时候，有时需要把某分支（比如develop分支）的某一次提交合并到另一分支（比如master分支），这就需要用到git cherry-pick命令。
+
+首先，切换到develop分支，敲 git log 命令，查找需要合并的commit记录，比如commitID：7fcb3defff；
+
+然后，切换到master分支，使用 git cherry-pick 7fcb3defff  命令，就把该条commit记录合并到了master分支，这只是在本地合并到了master分支；
+
+最后，git push 提交到master远程，至此，就把develop分支的这条commit所涉及的更改合并到了master分支。
+
+
+使用git工具合并commitid代码
+```
 

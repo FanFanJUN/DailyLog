@@ -47,3 +47,19 @@ const arr = [1,2,3];
 const arrpop = arr.shift() // 1
 console.log(arr); //[2,3]
 ```
+#### list转map
+
+```
+var list = [
+{UUID: "001", LINE_NAME: "84路"},
+{UUID: "002", LINE_NAME: "108路"},
+{UUID: "003", LINE_NAME: "26路"}];
+
+var map = {};
+
+list.forEach((item,index)=>{
+   map[list[index].UUID] = list[index].LINE_NAME; 
+})
+
+console.info(map["001"]); //此时得到的值则为“84路”;
+```

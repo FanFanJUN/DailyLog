@@ -78,6 +78,7 @@ export default new EventEmitter();
 - 函数式异步请求（request等）返回的Promise对象怎样获取其中的值
 - [antd 文件上传下载](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/antdownup.md)
 - [antd +dva实现动态获取树形数据表格](https://blog.csdn.net/Zeng__Yi/article/details/89226670)
+- [antd BUG记录日志](http://note.youdao.com/noteshare?id=7137341604464341350b984089bc335b)
 
 ### [工具函数系列](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/utils.md)
 - 公民身份号码正确性判定及程序实现
