@@ -98,7 +98,7 @@ export default new EventEmitter();
 ### js系列
 - [js对数组的操作](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/array.md)
 - [JS数组遍历常用方法](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/jsfor.md)
-- [防抖和节流](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/js/防抖和节流函数.md)
+- [防抖和节流](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/防抖和节流函数.md)
 
 ### 开源系列
 - [spring-boot-plus](https://springboot.plus/)
