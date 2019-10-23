@@ -29,6 +29,8 @@
 ##### [echarts自定义工具全屏](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/echartsfullscreen.md)
 ##### [自建ssr服务器教程](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/ssrbuild.md)
 ##### [张鑫旭SVG小图标](https://www.zhangxinxu.com/sp/icon/)
+##### [echarts自定义工具全屏](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/mybatis逻辑分页与物理分页.md)
+
 
 ### React系列
 ##### [es6的十大特性](https://www.geekjc.com/post/5d2fcbe9727a4f16c02d0fe1)
