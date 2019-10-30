@@ -1,12 +1,3 @@
----
-title: Git相关学习2
-date: 2018-11-05 20:53:51
-tags:
-- Git
-categories: 
-- 工具
----
-
 # Git常用命令
 
 
@@ -51,6 +42,7 @@ $ git push <主机名> <分支名>
 在本地分支上合并远程分支
 $ git merge <主机名>/<分支名>
 ```
+
 #### git删除分支
 ```
 删除本地分支： git branch -d branch
@@ -68,8 +60,19 @@ git cherry-pick commitID
 然后，切换到master分支，使用 git cherry-pick 7fcb3defff  命令，就把该条commit记录合并到了master分支，这只是在本地合并到了master分支；
 
 最后，git push 提交到master远程，至此，就把develop分支的这条commit所涉及的更改合并到了master分支。
+```
+#### GIT撤销MERGING状态
 
+```
+git reset --hard head
+```
+#### 切换分支
 
-使用git工具合并commitid代码
+```
+git branch -a  --查看所有分支
+git branch -r  --查看远程分支
+git branch --查看本地分支
+
+git checkout + 分支branch
 ```
 
