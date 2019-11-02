@@ -74,5 +74,19 @@ git branch -r  --查看远程分支
 git branch --查看本地分支
 
 git checkout + 分支branch
+git checkout -b branchName origin/branchName 
 ```
+#### git查看某一人的提交记录
 
+```
+git log --author="提交人"
+```
+#### git 查看提交文件改变内容
+
+```
+git show commitid
+```
+#### git 查看某一文件的变化
+```
+git diff 文件名
+```
