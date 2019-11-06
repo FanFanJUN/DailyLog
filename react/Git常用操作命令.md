@@ -90,3 +90,13 @@ git show commitid
 ```
 git diff 文件名
 ```
+#### Git-命令行-使用 git stash 暂存代码
+
+```
+git stash save <message>
+git checkout <feture_branch> //切换刚才功能开发的分支
+git stash list //查看暂存区的所有暂存修改记录
+git stash pop //取出最近一次暂存并删除记录列表中对应记录
+git stash apply stash@{X} //取出相应的暂存
+git stash drop stash@{X} //将记录列表中取出的对应暂存记录删除
+```
