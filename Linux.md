@@ -34,3 +34,17 @@ rm -fr dir # 强制删除目录dir中的所有文件
 #### sz(下载)
 
 #### rz(上传)
+
+#### linux下查看和修改文件时间
+
+```
+[root@web10 ~]# stat install.log
+  File: “install.log”
+  Size: 33386           Blocks: 80         IO Block: 4096   一般文件
+Device: fd00h/64768d    Inode: 7692962     Links: 1
+Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2012-07-13 16:02:34.000000000 +0800
+Modify: 2011-11-29 16:03:06.000000000 +0800
+Change: 2011-11-29 16:03:08.000000000 +0800
+说明：Access访问时间。Modify修改时间。Change状态改变时间。可以stat *查看这个目录所有文件的状态。
+```

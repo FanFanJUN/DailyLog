@@ -100,11 +100,17 @@ git stash pop //取出最近一次暂存并删除记录列表中对应记录
 git stash apply stash@{X} //取出相应的暂存
 git stash drop stash@{X} //将记录列表中取出的对应暂存记录删除
 ```
-#### git本地创建分支并推送到远程
+#### git根据已有远程分支在本地创建分支并推送到远程
 
 ```
-创建branchName并切到此分支，本地
-git branch -b branchName 
+创建branchName并切到此分支
 
-git push origin branchName
+git checkout -b 本地分支名  origin/远程分支名
+
+git push -u origin 本地分支名
+```
+#### git提交到本地仓库还原
+
+```
+git reset HEAD@{1}
 ```
