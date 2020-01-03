@@ -114,3 +114,34 @@ git push -u origin 本地分支名
 ```
 git reset HEAD@{1}
 ```
+#### [Git 删除具体某个提交commit的方法
+](https://blog.csdn.net/Nathan1987_/article/details/81605531)
+
+```
+比如我的提交历史如下，我现在想删除commit_B，但是不影响commit_B之后的提交历史
+
+commit_C 
+
+commit_B
+
+commit_A
+
+操作方法如下：
+
+假如要删除备注为add c.txt commit为0fb295fe0e0276f0c81df61c4fd853b7a000bb5c的这次提交
+
+首先找到commit_B提交之前的一次提交的commit_A
+
+执行如下命令
+
+1 git rebase -i  commit_A
+
+2 将commit_B这一行前面的pick改为drop，然后按照提示保存退出
+
+至此已经删除了指定的commit，可以使用git log查看下
+
+3 git push origin HEAD –force
+
+然后推送到远程仓库
+此时 commit_B 就被干掉了，没有影响后面的提交
+```
