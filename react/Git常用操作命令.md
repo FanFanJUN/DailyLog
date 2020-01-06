@@ -145,3 +145,5 @@ commit_A
 然后推送到远程仓库
 此时 commit_B 就被干掉了，没有影响后面的提交
 ```
+#### [如何撤销 Git 操作？](http://www.ruanyifeng.com/blog/2019/12/git-undo.html)
+#### [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
