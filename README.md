@@ -53,6 +53,7 @@ https://github.com/java-decompiler/jd-gui
 ##### [云服务器安装docker详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerinstall.md)
 ##### [docker详细安装nginx步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerNGINX.md)
 ##### [Nginx配置参数详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXdetail.md)
+##### [10分钟搭建自己的Git仓库](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/prigitlab.md)
 
 # Other
 ##### maven--plugin--pom--Usage
