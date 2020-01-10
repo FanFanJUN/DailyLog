@@ -49,6 +49,9 @@ https://github.com/java-decompiler/jd-gui
 ##### [云服务器安装mysql详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/yumMysql.md)
 ##### [云服务器安装java详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/yumJava.md)
 
+## Redis 
+##### [云服务器安装redis以及集群搭建](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/Linux/Redis/redis与redis集群服务的安装.md)
+
 # DOCKER
 ##### [云服务器安装docker详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerinstall.md)
 ##### [docker详细安装nginx步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerNGINX.md)
