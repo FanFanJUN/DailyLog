@@ -147,3 +147,8 @@ commit_A
 ```
 #### [如何撤销 Git 操作？](http://www.ruanyifeng.com/blog/2019/12/git-undo.html)
 #### [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
+#### git clone 克隆远程仓库使用账号密码
+
+```
+git clone -b branchName(分支名) http://username:password@gitlab.300.cn/package1/myProject.git
+```
