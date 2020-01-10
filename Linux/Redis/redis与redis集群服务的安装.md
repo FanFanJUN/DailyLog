@@ -3,6 +3,7 @@
 
 ###### 下载文件 [redis.tar.gz官方下载](https://redis.io/download)
 ###### 下载客户端 [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager/releases)
+###### 下载客户端 [RedisDesktopManager](http://www.pc6.com/mac/486661.html)
 ## 一、redis服务的安装
 ### 1.环境配置
 Redis是c开发的,因此安装redis需要c语言的编译环境,即需要安装gcc
@@ -95,37 +96,63 @@ PONG
 
 ![7.png](../../img/Linux/Redis/5-redis.png)
 
+3）[使用redis客户端连接windows和linux下的redis并解决无法连接redis的问题](https://blog.csdn.net/Alexshi5/article/details/78726082)
+
+4）停止redis服务器
+
+```
+[root@VM_0_15_centos bin]# ps aux|grep redis
+root       474  0.1  0.2 153896  2668 ?        Ssl  13:49   0:01 ./redis-server *:6379
+root      3380  0.0  0.0 112708   976 pts/1    R+   14:11   0:00 grep --color=auto redis
+[root@VM_0_15_centos bin]# 
+[root@VM_0_15_centos bin]# ./redis-cli shutdown
+[root@VM_0_15_centos bin]# ps aux|grep redis
+root      3394  0.0  0.0 112708   976 pts/1    R+   14:11   0:00 grep --color=auto redis
+
+```
+
 ## 二、redis集群服务安装
 ### 1.创建Redis集群目录
-1）在usr/local目录下新建redis-cluster目录，用于存放集群节点
+1）在/home目录下新建redis-cluster目录，用于存放集群节点
 
-![10.png](../img/linux/redis/10.png)
 
-2）复制/usr/local/redis/bin目录下所有文件
-
-把redis目录下的bin目录下的所有文件复制到/usr/local/redis-cluster/redis01目录下，不用担心这里没有redis01目录，会自动创建的。
 ```
-cp -r redis/bin/ redis-cluster/redis01
+[root@VM_0_15_centos home]# mkdir redis-cluster
+[root@VM_0_15_centos home]# ls
+config  gitrepo       jdk-8u211-linux-x64.tar.gz  nginx         package.json  redis        redis-5.0.7.tar.gz  SpringBoot  yumnginx
+git     jdk1.8.0_211  mynginx                     node_modules  README.md     redis-5.0.7  redis-cluster       src
 ```
-![11.png](../img/linux/redis/11.png)
+
+
+
+2）复制/home/redis/bin目录下所有文件
+
+把redis目录下的bin目录下的所有文件复制到/home/redis-cluster/redis01目录下，不用担心这里没有redis01目录，会自动创建的。
+```
+[root@VM_0_15_centos redis-cluster]# cp -r /home/redis/bin/ /home/redis-cluster/redis01
+[root@VM_0_15_centos redis-cluster]# ls
+redis01
+
+```
 
 3）删除redis01目录下快照文件dump.rdb.
 ```
-rm -rf dump.rdb
-```
-![12.png](../img/linux/redis/12.png)
+[root@VM_0_15_centos redis-cluster]# cd redis01
+[root@VM_0_15_centos redis01]# ls
+dump.rdb  redis-benchmark  redis-check-aof  redis-check-rdb  redis-cli  redis.conf  redis-sentinel  redis-server
+[root@VM_0_15_centos redis01]# 
+[root@VM_0_15_centos redis01]# rm -rf dump.rdb
+[root@VM_0_15_centos redis01]# ls
+redis-benchmark  redis-check-aof  redis-check-rdb  redis-cli  redis.conf  redis-sentinel  redis-server
 
+```
 4）修改redis01目录下redis.conf配置文件
 
 a）修改端口号为6380
 
-![13.png](../img/linux/redis/13.png)
-
 b）将cluster-enabled yes 的注释打开(大概632行)
 
 c）将cluster-config-file nodes-6379.conf 的注释打开,并改为cluster-config-file nodes-6380.conf(大概640行)
-
-![14.png](../img/linux/redis/14.png)
 
 d)打开bind注释，并修改为bind 192.168.0.40(这一步很重要，每个节点都要修改为对应服务器的ip，下面127.0.0.1的地方都要改为192.168.0.40)
 
@@ -133,13 +160,27 @@ d)打开bind注释，并修改为bind 192.168.0.40(这一步很重要，每个�
 
 a）将redis-cluster/redis01文件复制5份到redis-cluster目录下（redis02-redis06），创建6个redis实例，模拟Redis集群的6个节点。如下所示：
 
-![15.png](../img/linux/redis/15.png)
 
-b）分别修改redis.conf文件端口号为6381-6385
+```
+[root@VM_0_15_centos redis-cluster]# cp -r redis01/ redis02
+[root@VM_0_15_centos redis-cluster]# ls
+redis01  redis02
+[root@VM_0_15_centos redis-cluster]# cp -r redis01/ redis03
+[root@VM_0_15_centos redis-cluster]# cp -r redis01/ redis04
+[root@VM_0_15_centos redis-cluster]# cp -r redis01/ redis05
+[root@VM_0_15_centos redis-cluster]# cp -r redis01/ redis06
+[root@VM_0_15_centos redis-cluster]# ls
+redis01  redis02  redis03  redis04  redis05  redis06
+
+```
+
+
+b）分别修改redis.conf文件端口号为6380-6385
 
 ### 2.启动所有redis节点
 1）由于一个一个启动太麻烦，所以在这里创建一个批量启动redis节点的脚本文件startall.sh，文件内容如下：
 ```
+echo 'START redis-cluster'
 cd redis01
 ./redis-server redis.conf
 cd ..
@@ -158,8 +199,8 @@ cd ..
 cd redis06
 ./redis-server redis.conf
 cd ..
+echo 'END redis-cluster'
 ```
-![16.png](../img/linux/redis/16.png)
 
 2）创建好启动脚本文件之后，需要修改该脚本的权限，使之能够执行，指令如下：
 ```
@@ -172,80 +213,42 @@ chmod +x startall.sh
 ```
 dos2unix startall.sh
 ```
-![17.png](../img/linux/redis/17.png)
-
 4）查看redis是否启动
 ```
 ps -ef|grep redis
 ```
-![18.png](../img/linux/redis/18.png)
 
-### 3.安装Ruby环境
-注意：redis需要Ruby版本大于2.2.2
+```
+[root@VM_0_15_centos redis-cluster]# ps -ef|grep redis
+root     21615     1  0 16:20 ?        00:00:00 ./redis-server *:6380 [cluster]
+root     21620     1  0 16:20 ?        00:00:00 ./redis-server *:6381 [cluster]
+root     21622     1  0 16:20 ?        00:00:00 ./redis-server *:6382 [cluster]
+root     21624     1  0 16:20 ?        00:00:00 ./redis-server *:6383 [cluster]
+root     21626     1  0 16:20 ?        00:00:00 ./redis-server *:6384 [cluster]
+root     21640     1  0 16:20 ?        00:00:00 ./redis-server *:6385 [cluster]
+root     21649 13041  0 16:20 pts/0    00:00:00 grep --color=auto redis
+```
 
-下载文件[ruby-2.3.0.tar.gz](../tools/linux/ruby-2.3.0.tar.gz)
-
-1）若存在Ruby，则清除旧版Ruby
-```
-yum remove ruby
-```
-2）安装依赖
-```
-yum -y install zlib-devel curl-devel openssl-devel httpd-devel apr-devel apr-util-devel mysql-devel
-```
-3）上传ruby-2.3.0到服务器，并解压
-```
-tar zxvf ruby-2.3.0.tar.gz
-```
-![19.png](../img/linux/redis/19.png)
-
-4）进入ruby-2.3.0目录下，执行以下命令
-```
-./configure --disable-install-rdoc
-```
-![20.png](../img/linux/redis/20.png)
-
-5）在ruby-2.3.0目录下，执行以下命令
-```
- make
-```
-```
- make install
-```
-6）查看Ruby信息
-```
-ruby -v
-```
-![21.png](../img/linux/redis/21.png)
-
-7）要支持redis通信，需要下载redis相关包
-```
-gem install redis
-```
-![22.png](../img/linux/redis/22.png)
+### 3.安装Ruby环境（redis 5.x无需安装）
 
 ### 4.构建集群
-1）切换到redis解压的源码包src目录下
-```
-cd /root/redis-5.0.7/src/
-```
-2）执行以下命令
-```
-./redis-trib.rb create --replicas 1 192.168.0.40:6380 192.168.0.40:6381 192.168.0.40:6382 192.168.0.40:6383 192.168.0.40:6384 192.168.0.40:6385
---replicas 1 表示每个主数据库拥有从数据库个数为1。master节点不能少于3个，所以我们用了6个redis
-```
-![23.png](../img/linux/redis/23.png)
 
-3）遇到以下提示信息，手动输入yes
+```
+./redis-cli --cluster create  129.28.167.200:6380 129.28.167.200:6381 129.28.167.200:6382 129.28.167.200:6383 129.28.167.200:6384 129.28.167.200:6385 --cluster-replicas 1
 
-![24.png](../img/linux/redis/24.png)
+```
 
 ### 5.测试
 1）测试连接
 ```
-./redis-cli -c -p 6380
+[root@VM_0_15_centos redis-cluster]# ./redis-cli -c -p 6380
+127.0.0.1:6380> set lc licai
+OK
+127.0.0.1:6380> get lc
+"licai"
+127.0.0.1:6380> quit
+[root@VM_0_15_centos redis-cluster]# 
 ```
-![25.png](../img/linux/redis/25.png)
 
 2）查看集群信息
 ```
@@ -254,7 +257,36 @@ cluster info
 b.查看集群里有多少个节点
 cluster nodes
 ```
-![26.png](../img/linux/redis/26.png)
+
+```
+[root@VM_0_15_centos redis-cluster]# ./redis-cli -c -p 6380
+127.0.0.1:6380> cluster info
+cluster_state:ok
+cluster_slots_assigned:16384
+cluster_slots_ok:16384
+cluster_slots_pfail:0
+cluster_slots_fail:0
+cluster_known_nodes:6
+cluster_size:3
+cluster_current_epoch:6
+cluster_my_epoch:1
+cluster_stats_messages_ping_sent:760
+cluster_stats_messages_pong_sent:813
+cluster_stats_messages_sent:1573
+cluster_stats_messages_ping_received:808
+cluster_stats_messages_pong_received:760
+cluster_stats_messages_meet_received:5
+cluster_stats_messages_received:1573
+127.0.0.1:6380> cluster nodes
+de1ed8da938267627162a2b7a2f0f99abac772af 129.28.167.200:6385@16385 slave 559ae0b8455abae254559f1a0b8fb69645500da3 0 1578646492000 6 connected
+ed334258190a7a28816cb86b4abf165c3687366b 129.28.167.200:6382@16382 master - 0 1578646492607 3 connected 10923-16383
+559ae0b8455abae254559f1a0b8fb69645500da3 129.28.167.200:6381@16381 master - 0 1578646493609 2 connected 5461-10922
+3a86f949f84c8feeba0df8c716247e57dc7a19fe 129.28.167.200:6383@16383 slave ed334258190a7a28816cb86b4abf165c3687366b 0 1578646494611 4 connected
+e188b395b0d9f5aa6cf21f81f95a09a48f1645a4 129.28.167.200:6384@16384 slave 52098c554c027ae184e926a9343a929808969fb3 0 1578646492000 5 connected
+52098c554c027ae184e926a9343a929808969fb3 172.30.0.15:6380@16380 myself,master - 0 1578646493000 1 connected 0-5460
+
+```
+
 ### 6.至此linux下redis集群安装完毕
 
 
@@ -295,5 +327,5 @@ cluster slots
 用kill -9 进程号，直接杀进程的方法会造成数据丢失
 ```
 
-##后续
-###1.redis-4.0.11默认会开启bind 127.0.0.1和写保护protected-mode yes,配置的时候需要将bind 127.0.0.1注释掉，改成protected-mode no
+## 后续
+### 1.redis-4.0.11默认会开启bind 127.0.0.1和写保护protected-mode yes,配置的时候需要将bind 127.0.0.1注释掉，改成protected-mode no
