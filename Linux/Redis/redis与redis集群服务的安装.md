@@ -18,26 +18,26 @@ yum install gcc-c++
 ### 2.redis安装
 1）上传redis压缩包到服务器
 
- ![1.png](../../../../img/Linux/Redis/1-redis.png)
+ ![1.png](../../img/Linux/Redis/1-redis.png)
 
 2）解压redis压缩包
 ```
 [root@VM_0_15_centos home]# tar zxf redis-5.0.7.tar.gz
 ```
 
-![2.png](../../../../img/Linux/Redis/2-redis.png)
+![2.png](../../img/Linux/Redis/2-redis.png)
 
 3)进入redis-5.0.7目录并查看该目录下文件
 
- ![3.png](../../../../img/Linux/Redis/3-redis.png)
+ ![3.png](../../img/Linux/Redis/3-redis.png)
 
 4）make编译redis源码
 
- ![4.png](../../../../img/Linux/Redis/4-redis.png)
+ ![4.png](../../img/Linux/Redis/4-redis.png)
  
  如下则编译成功
 
- ![5.png](../../../../img/Linux/Redis/5-redis.png)
+ ![5.png](../../img/Linux/Redis/5-redis.png)
  
 5）安装编译后的redis代码到指定目录,一般存放于/usr/local下的redis目录,指令如下
 ```
@@ -45,7 +45,7 @@ yum install gcc-c++
 ```
 如下图则说明安装成功,此时查看/home目录,可以发现多了一个redis文件夹
 
- ![6.png](../../../../img/Linux/Redis/6-redis.png)
+ ![6.png](../../img/Linux/Redis/6-redis.png)
  
 6）此时可以启动redis了,默认启动模式为前端启动,指令如下
 ```
@@ -93,7 +93,7 @@ PONG
 ```
 2）打开redis客户端连接
 
-![7.png](../../../../img/Linux/Redis/5-redis.png)
+![7.png](../../img/Linux/Redis/5-redis.png)
 
 ## 二、redis集群服务安装
 ### 1.创建Redis集群目录
