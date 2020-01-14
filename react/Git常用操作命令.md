@@ -152,3 +152,18 @@ commit_A
 ```
 git clone -b branchName(分支名) http://username:password@gitlab.300.cn/package1/myProject.git
 ```
+#### [不使用fast-forward方式合并，保留分支的commit历史,merge形成一个新的id](https://segmentfault.com/q/1010000002477106)
+
+```
+git merge --no-ff branch
+```
+
+#### revert一个merge操作
+
+```
+Commit 1c3268d4b69dc6ca9dd89e92b513f5edb194978c is a merge but no -m option was given
+解决如下：
+git revert -m 1 <commit-hash> 
+git commit -m "Reverting the last commit."
+git push
+```
