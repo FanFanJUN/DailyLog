@@ -158,7 +158,7 @@ git clone -b branchName(分支名) http://username:password@gitlab.300.cn/packag
 git merge --no-ff branch
 ```
 
-#### revert一个merge操作
+#### [revert一个merge操作](https://www.cnblogs.com/520yang/articles/6732687.html)
 
 ```
 Commit 1c3268d4b69dc6ca9dd89e92b513f5edb194978c is a merge but no -m option was given
@@ -166,4 +166,27 @@ Commit 1c3268d4b69dc6ca9dd89e92b513f5edb194978c is a merge but no -m option was 
 git revert -m 1 <commit-hash> 
 git commit -m "Reverting the last commit."
 git push
+```
+```
+当你使用 git revert 撤销一个 merge commit 时，如果除了 commit 号而不加任何其他参数，git 将会提示错误：
+
+$ git revert 83281a8e9aa1ede58d51a6dd78d5414dd9bc8548 //本人实际git信息，这里对应git演进图中的 g
+error: Commit g is a merge but no -m option was given.
+fatal: revert failed
+
+在你合并两个分支并试图撤销时，Git 并不知道你到底需要保留哪一个分支上所做的修改。从 Git 的角度来看，master 分支和 dev 在地位上是完全平等的，只是在 workflow 中，master 被人为约定成了「主分支」。
+
+于是 Git 需要你通过 m 或 mainline 参数来指定「主线」。merge commit 的 parents 一定是在两个不同的线索上，因此可以通过 parent 来表示「主线」。m 参数的值可以是 1 或者 2，对应着 parent 在 merge commit 信息中的顺序。
+
+以上面那张图为例，我们查看 commit g 的内容：
+
+$ git show 83281a8e9aa1ede58d51a6dd78d5414dd9bc8548 //本人实际git信息，这里对应git演进图中的 g
+
+commit 83281a8e9aa1ede58d51a6dd78d5414dd9bc8548
+
+Merge: 312a518 fa87415 //312a518和fa87415 可以在git log中找到对应的提交信息（只是commit一长串字符的头部分）
+
+......
+
+那么，$ git revert -m 1 g 将会保留 master 分支上的修改，撤销 dev 分支上的修改。//(1就是1，表示312a518对应的父来源，2表示fa87415对应的父来源)撤销成功之后，Git 将会生成一个新的 Commit
 ```
