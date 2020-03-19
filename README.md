@@ -16,6 +16,11 @@
 ### [Ant Design 4.0 进行时！](https://zhuanlan.zhihu.com/p/67511507)
 ### [Ant Design 4.0 RC released!--更改概览](https://github.com/ant-design/ant-design/issues/20661)
 ### [参加第三届蚂蚁体验科技大会 SEE Conf 2020 是什么体验？](https://www.zhihu.com/question/363807174)
+# [SpringBoot走过的坑](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/springboot/springboot.md)
+- [Mybatis generator mapper文件重新生成不会覆盖原文件](https://blog.csdn.net/zengqiang1/article/details/79381418)
+- springboot服务器部署
+- springboot集成druid
+- [Spring Boot最常用的3种读取properties配置文件中数据的方法：](https://blog.csdn.net/dkbnull/article/details/81953190)
 # 工具集
 ##### [utils](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/tree/master/utils)
 ##### [Git常用操作命令](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Git常用操作命令.md)
