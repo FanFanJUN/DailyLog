@@ -21,6 +21,7 @@
 - springboot服务器部署
 - springboot集成druid
 - [Spring Boot最常用的3种读取properties配置文件中数据的方法：](https://blog.csdn.net/dkbnull/article/details/81953190)
+- [Java开启线程方式（用于启动应用程序）](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/thread.md)
 # 工具集
 ##### [utils](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/tree/master/utils)
 ##### [Git常用操作命令](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Git常用操作命令.md)
