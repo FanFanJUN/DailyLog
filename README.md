@@ -163,6 +163,114 @@ export default new EventEmitter();
 - [全屏js](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/全屏js.md)
 - [Javascript获取数组中最大和最小值](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/Javascript获取数组中最大和最小值.md)
 - [js精度计算](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js精度计算.md)
+- Promise.all
+```
+const a = getDataDictionaryItem({dictTypeCode: 'purchaseInfoRecordType'});
+        const b = getDataDictionaryItem({dictTypeCode: 'subject_allocation_type'});
+
+        // 获取数据字典 采购信息记录类型 项目类别
+        Promise.all([a,b]).then(res=>{
+            if(res) {
+                if(res[0].success && res[1].success) {
+                    this.setState(()=>({
+                        itemCategory: res[0].data,
+                        projectCategory: res[1].data,
+                    }));
+                }
+            }
+        }).catch((error)=>{
+            message.error(error);
+        })
+```
+- 判断两对象是否相等（别用 === ）
+
+```
+// 对比两个对象的值是否完全相等 返回值 true/false
+    isObjectValueEqual= (a, b) => {   
+        //取对象a和b的属性名
+        var aProps = Object.getOwnPropertyNames(a);
+        var bProps = Object.getOwnPropertyNames(b);
+        //判断属性名的length是否一致
+        if (aProps.length != bProps.length) {
+            return false;
+        }
+        //循环取出属性名，再判断属性值是否一致
+        for (var i = 0; i < aProps.length; i++) {
+          var propName = aProps[i];
+          if (a[propName] !== b[propName]) {
+              return false;
+          }
+        }
+        return true;
+      }
+```
+- [JS获取指定字符的前/后值](https://www.cnblogs.com/fdxjava/p/11698541.html)
+
+```
+str = "12345?789”
+str.split("?")[0]    输出为 12345
+
+str.split("?")[1]    输出为 789
+
+   讲解：(split("?")为指定分割字符；[0]为分割后取前面的值，[1]为分割后取后面的值)
+```
+- 空数组判断
+
+```
+const a = [];
+if(a) {
+    console.log('true');
+} else {
+  console.log('false') ;
+}
+输出  true
+```
+- 过滤js 虚值
+
+```
+虚值是 JavaScript 中的值为FALSE的值。 JavaScript 中只有六个虚值，它们是：
+
+undefined
+null
+NaN
+0
+'' (空字符)
+false
+
+
+const myArray =['1','',null, undefined, 0, NaN, false];
+console.log(myArray.filter(Boolean));
+输出 ['1']
+
+myArray
+    .map(item => {
+        // Do your changes and return the new item
+    })
+    .filter(Boolean);
+```
+- 方法参数校验
+
+```
+const isRequired = () => { 
+  throw new Error('param is required')
+}
+
+const print = (num = isRequired()) => { 
+  console.log(`printing ${num}`) 
+}
+
+print(2) //printing 2
+print() // error
+print(null) //printing null
+
+```
+- 获取URL参数
+
+```
+import queryString from 'query-string';
+
+queryString.parse(window.location.search);
+```
 
 # 开源系列
 - [spring-boot-plus](https://springboot.plus/)
@@ -210,3 +318,116 @@ setTimeout(ws.reconnect, 10e3);
 # webpack
 #### webpack插件
 - [umi-plugin-qrcode运行时在控制台打印二维码](https://www.npmjs.com/package/umi-plugin-qrcode)
+
+# sql系列
+### 查看mysql版本
+
+```
+mysql> select version();
++------------+
+| version()  |
++------------+
+| 5.7.21-log |
++------------+
+1 row in set (18.09 sec)
+```
+### 触发器
+
+```
+CREATE TRIGGER `T` BEFORE INSERT ON `srm_source_list_line_copy1`
+FOR EACH ROW begin
+set new.srm_source_list_num=concat('IMH',lpad(((SELECT substring(srm_source_list_num,4,10) from srm_source_list_line_copy1 where srm_source_list_num=(select srm_source_list_num from srm_source_list_line_copy1  order by srm_source_list_num desc limit 1))+1),10,0));
+end;
+```
+### when then
+
+```
+UPDATE srm_purchase_info_record_line_copy1 SET 
+created_date = NOW(),last_edited_date = NOW(),tenant_code = '10000028',
+state = 'DRAFT',
+material_category_code = '08',
+material_category_id = '2FE07A4C-9190-11EA-A7EB-0242C0A84404',
+material_category_name ='生产性物资',
+purchase_info_remark = '历史数据',
+id = UUID(),
+project_category_code = case record_type_code when '0' Then '0' when '2' Then 'K' when '3' Then 'L' end;
+```
+###  迁移表字段数据（列名数一样）
+
+```
+INSERT INTO  user2(`u_id`,`name`) SELECT `id`,`name`  FROM user;
+```
+###  length concat
+
+```
+UPDATE srm_source_list_line SET
+srm_source_list_item_num = CONCAT('000',srm_source_list_item_num,0) WHERE LENGTH(srm_source_list_item_num) = 1;
+
+UPDATE srm_source_list_line SET
+srm_source_list_item_num = CONCAT('00',srm_source_list_item_num,0) WHERE LENGTH(srm_source_list_item_num) = 2;
+```
+### 索引
+
+```
+ ALTER table baf_sap_material_group_map_purchase_group ADD INDEX business_unit(business_unit);
+
+```
+
+### 函数
+ - MID()函数 - 用于得到一个字符串的一部分 这个函数被MySQL支持，但不被MS SQL Server和Oracle支持。在SQL Server， Oracle 数据库中，我们可以使用 SQL SUBSTRING函数或者 SQL SUBSTR函数作为替代。
+```
+
+SELECT MID(ColumnName, Start [, Length]) FROM TableName;
+
+mysql> SELECT MID('NowaMagic', 5, 5);  -Magic
+
+
+```
+### 查看执行进程
+
+```
+show processlist;
+杀死进程 kill id
+```
+### 导出数据库表详细设计
+
+```
+SELECT
+COLUMN_NAME 字段名称,
+COLUMN_TYPE 数据类型,
+IF(IS_NULLABLE='NO','是','否') AS '必填',
+COLUMN_COMMENT 注释
+FROM
+INFORMATION_SCHEMA.COLUMNS
+where
+-- Finance为数据库名称，到时候只需要修改成你要导出表结构的数据库即可
+table_schema ='srm_wa'
+AND
+-- user为表名，到时候换成你要导出的表的名称
+-- 如果不写的话，默认会查询出所有表中的数据，这样可能就分不清到底哪些字段是哪张表中的了
+table_name = 'srm_calibration_head_info'
+
+
+
+查询表所有信息
+select * from INFORMATION_SCHEMA.COLUMNS where table_schema = "srm_wa" and table_name = "srm_calibration_head_info";
+
+
+SELECT
+COLUMN_NAME 字段,
+DATA_TYPE 类型,
+CHARACTER_MAXIMUM_LENGTH 长度,
+COLUMN_COMMENT 注释,
+column_key 索引,
+EXTRA 外键
+FROM
+INFORMATION_SCHEMA.COLUMNS
+where
+-- Finance为数据库名称，到时候只需要修改成你要导出表结构的数据库即可
+table_schema ='srm_wa'
+AND
+-- user为表名，到时候换成你要导出的表的名称
+-- 如果不写的话，默认会查询出所有表中的数据，这样可能就分不清到底哪些字段是哪张表中的了
+table_name = 'srm_calibration_head_info';
+
+```
