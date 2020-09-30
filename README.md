@@ -122,6 +122,11 @@ export default new EventEmitter();
 
 ```
 ![image](https://geekjc-img.geekjc.com/FiCoJwlG9mHzStmC0jq7CXaYudUQ)
+#### React hooks(React v16.8)
+##### [官网解读](https://react.docschina.org/docs/hooks-intro.html)
+##### [阮一峰-React Hooks 入门教程](http://www.ruanyifeng.com/blog/2019/09/react-hooks.html?tdsourcetag=s_pctim_aiomsg)
+##### [阮一峰-轻松学会 React 钩子：以 useEffect() 为例](http://www.ruanyifeng.com/blog/2020/09/react-hooks-useeffect-tutorial.html)
+##### [使用React hook时父组件如何调用子组件中的方法](https://www.leevii.com/2019/08/how-to-call-a-method-in-a-subcomponent-when-using-a-react-hook.html)
 # [AntDesign系列](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/antd/antds.md)
 - AntD对request.js的封装
 - 对AntD model的封装
