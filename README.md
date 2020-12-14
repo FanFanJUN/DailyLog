@@ -1,31 +1,8 @@
 <h1>记录开发所遇到的点点滴滴</h1>
-
-<!-- /TOC -->
-# antd 4.0进行时
-### [官网](https://next.ant.design/index-cn)
-
-```
-蚂蚁金服体验技术部在第三届 SEE Conf （蚂蚁金服体验科技大会）发布了 Ant Design 4.0 组件库，主要特性：
-1、打包尺寸优化
-2、新增暗黑主题
-3、表单组件大量功能优化
-4、表格组件大量功能优化
-5、日历、日期选择组件大量功能优化
-6、性能优化：表格，选择器和树形选择器支持虚拟滚动
-```
-### [Ant Design 4.0 进行时！](https://zhuanlan.zhihu.com/p/67511507)
-### [Ant Design 4.0 RC released!--更改概览](https://github.com/ant-design/ant-design/issues/20661)
-### [参加第三届蚂蚁体验科技大会 SEE Conf 2020 是什么体验？](https://www.zhihu.com/question/363807174)
-# [SpringBoot走过的坑](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/springboot/springboot.md)
-- [Mybatis generator mapper文件重新生成不会覆盖原文件](https://blog.csdn.net/zengqiang1/article/details/79381418)
-- springboot服务器部署
-- springboot集成druid
-- [Spring Boot最常用的3种读取properties配置文件中数据的方法：](https://blog.csdn.net/dkbnull/article/details/81953190)
-- [Java开启线程方式（用于启动应用程序）](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/thread.md)
 # 工具集
 ##### [utils](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/tree/master/utils)
 ##### [Git常用操作命令](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Git常用操作命令.md)
-#### 工具汇总
+#### 生产力工具汇总
 - [Git](https://git-scm.com/)
 - [tortoisegit](https://tortoisegit.org/)
 - [Vscode](https://code.visualstudio.com/)
@@ -57,6 +34,28 @@
 [idea设置](https://www.jianshu.com/p/15ed849bcdde)
 "cmd.exe" /k ""%CMDER_ROOT%\vendor\init.bat""
 ```
+<!-- /TOC -->
+# antd 4.0进行时
+### [官网](https://next.ant.design/index-cn)
+
+```
+蚂蚁金服体验技术部在第三届 SEE Conf （蚂蚁金服体验科技大会）发布了 Ant Design 4.0 组件库，主要特性：
+1、打包尺寸优化
+2、新增暗黑主题
+3、表单组件大量功能优化
+4、表格组件大量功能优化
+5、日历、日期选择组件大量功能优化
+6、性能优化：表格，选择器和树形选择器支持虚拟滚动
+```
+### [Ant Design 4.0 进行时！](https://zhuanlan.zhihu.com/p/67511507)
+### [Ant Design 4.0 RC released!--更改概览](https://github.com/ant-design/ant-design/issues/20661)
+### [参加第三届蚂蚁体验科技大会 SEE Conf 2020 是什么体验？](https://www.zhihu.com/question/363807174)
+# [SpringBoot走过的坑](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/springboot/springboot.md)
+- [Mybatis generator mapper文件重新生成不会覆盖原文件](https://blog.csdn.net/zengqiang1/article/details/79381418)
+- springboot服务器部署
+- springboot集成druid
+- [Spring Boot最常用的3种读取properties配置文件中数据的方法：](https://blog.csdn.net/dkbnull/article/details/81953190)
+- [Java开启线程方式（用于启动应用程序）](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/thread.md)
 # IDEA插件
 ##### Mybatis 工具：Free Mybatis plugin(方便进行 Mapper 接口和 XML 文件之间跳转)
 ##### Maven辅助神器：Maven Helper(解决JAR包冲突)
