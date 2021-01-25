@@ -4,6 +4,19 @@
 ##### [utils](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/tree/master/utils)
 ##### [Git常用操作命令](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Git常用操作命令.md)
 # 生产力工具汇总
+### Chrome插件必备
+- [AdBlock — 最佳广告拦截工具](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
+- [FeHelper--Web前端助手](https://github.com/zxlie/FeHelper)
+- [oh-my-cookie(一个用于导出，增删改查cookie、sessionstorage、localstorage的Chrome扩展)](https://github.com/codedance98/oh-my-cookie)
+- [Smart TOC](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba)
+- [codecopy(A browser extension that adds copy to clipboard buttons on every code block)](https://github.com/zenorocha/codecopy)
+- [CSDN开发助手](https://plugin.csdn.net/)
+- [Evernote Web Clipper(印象笔记剪藏)](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
+- [Octotree - GitHub code tree(树形显示Github)](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc)
+- [Open Frame(iframe打开)](https://chrome.google.com/webstore/detail/open-frame/kdhjgkkaacdhdioocfbpmhjidbinfajj)
+- [掘金插件(为程序员、设计师、产品经理每日发现优质内容)](https://chrome.google.com/webstore/detail/%E6%8E%98%E9%87%91/lecdifefmmfjnjjinhaennhdlmcaeeeb)
+- [有道云笔记网页剪报](https://chrome.google.com/webstore/detail/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0%E7%BD%91%E9%A1%B5%E5%89%AA%E6%8A%A5/joinpgckiioeklibflapokicmndlcnef)
+- [GitZip for github(单独下载github文件 不用整个clone)](https://chrome.google.com/webstore/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn)
 ### [精品mac应用分享](https://xclient.info/)
 ### [都装了啥-阿里云谦](https://github.com/sorrycc/awesome-tools)
 - [Navicat-数据库连接客户端-U盘](https://xclient.info/s/navicat-premium.html)
@@ -31,10 +44,10 @@
 - [Axure RP 9.0.0.3722 专业的快速原型设计工具](https://xclient.info/s/axure-rp.html)
 - [IINA 1.1.2播放器](https://github.com/iina/iina/releases)
 - [Tuxera NTFS 2018 让你的Mac支持NTFS](https://xclient.info/s/tuxera-ntfs.html)
-#### 反编译工具
+### 反编译工具
 - [Luyten](https://github.com/deathmarine/Luyten/releases/tag/v0.5.3)
 - [jd-gui](https://github.com/java-decompiler/jd-gui)
-#### windows设置Cmder终端
+### windows设置Cmder终端
 
 ```
 [vscode设置](https://stackoverflow.com/questions/45765853/how-to-use-cmder-in-visual-studio-code)
