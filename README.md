@@ -192,6 +192,11 @@ export default new EventEmitter();
 - [全屏js](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/全屏js.md)
 - [Javascript获取数组中最大和最小值](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/Javascript获取数组中最大和最小值.md)
 - [js精度计算](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js精度计算.md)
+- [js的宏任务与微任务](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js的宏任务与微任务.pdf)
+- [js深浅拷贝](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js深浅拷贝.pdf)
+- [2020年js新特性](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/2020年js新特性.pdf)
+- [纯前端解析excel](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/纯前端解析excel.pdf)
+- [js中的异步](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js中的异步.pdf)
 - Promise.all
 ```
 const a = getDataDictionaryItem({dictTypeCode: 'purchaseInfoRecordType'});
