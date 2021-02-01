@@ -4,6 +4,18 @@
 ##### [utils](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/tree/master/utils)
 ##### [Git常用操作命令](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Git常用操作命令.md)
 # 生产力工具汇总
+### [油猴tampermonkey脚本](https://www.tampermonkey.net/)
+- AC-baidu-重定向优化百度搜狗谷歌必应搜索_favicon_双列
+- UserScript+--: 显示适用的UserJS脚本数及跳转	
+- 懒人专用，全网VIP视频免费破解去广告、全网音乐直接下载、百度网盘直接下载、知乎视频下载等多合一版。长期更新，放心使用。	
+- 知乎网页助手	
+- 秒传链接提取
+- 计时器掌控者|视频广告跳过|视频广告加速器
+- 豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载
+### [谷粒-Chrome插件英雄榜](https://github.com/zhaoolee/ChromeAppHeroes)
+- [《GitHub加速》提高中国开发者访问GitHub的速度](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg)
+- [《Web for TikTok》用Chrome刷海外版抖音TikTok，下载Tiktok视频](https://chrome.google.com/webstore/detail/dedphjedjalglppdfpmmibdbbkmifnbb)
+- [《知乎网页助手》让网页版知乎更好用](https://www.v2fy.com/p/088-zhihu-2020-12-19/)
 ### Chrome插件必备
 - [AdBlock — 最佳广告拦截工具](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
 - [FeHelper--Web前端助手](https://github.com/zxlie/FeHelper)
@@ -11,6 +23,7 @@
 - [Smart TOC](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba)
 - [codecopy(A browser extension that adds copy to clipboard buttons on every code block)](https://github.com/zenorocha/codecopy)
 - [CSDN开发助手](https://plugin.csdn.net/)
+- [MoonTab 新标签页](https://chrome.google.com/webstore/detail/moontab-%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/jjfjapjnjdoehnmecalfglbaefkmchfk)
 - [Evernote Web Clipper(印象笔记剪藏)](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
 - [Octotree - GitHub code tree(树形显示Github)](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc)
 - [Open Frame(iframe打开)](https://chrome.google.com/webstore/detail/open-frame/kdhjgkkaacdhdioocfbpmhjidbinfajj)
