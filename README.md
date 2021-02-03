@@ -182,7 +182,16 @@ export default new EventEmitter();
 - [antd 文件上传下载](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/antdownup.md)
 - [antd +dva实现动态获取树形数据表格](https://blog.csdn.net/Zeng__Yi/article/details/89226670)
 - [antd BUG记录日志](http://note.youdao.com/noteshare?id=7137341604464341350b984089bc335b)
-
+### React组件相关
+- [AntD官方推荐社区精选组件](https://3x.ant.design/docs/react/recommendation-cn)
+- [实现antd的modal组件可以拖拽的功能(dragm)](https://blog.csdn.net/u013790941/article/details/102456054)
+- [React components foundation of ant.design(antd底层基础组件)](http://react-component.github.io/)
+- [antd-multi-cascader(级联组件)](https://github.com/HelKyle/antd-multi-cascader)
+- [echarts-for-react](https://github.com/hustcc/echarts-for-react)
+- [rsuite-A suite of React components](https://github.com/rsuite/rsuite)
+- [|react-virtualized|react-virtualized | 用于大列表和表格数据的渲染](https://github.com/bvaughn/react-virtualized)
+- [react-pdf(Create PDF files using React)](https://github.com/diegomura/react-pdf)
+- [Styled Components](https://github.com/styled-components/styled-components)
 # [工具函数系列](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/utils.md)
 - 公民身份号码正确性判定及程序实现
 - form表单删除空字符串
