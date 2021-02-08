@@ -58,6 +58,7 @@
 - [Axure RP 9.0.0.3722 专业的快速原型设计工具](https://xclient.info/s/axure-rp.html)
 - [IINA 1.1.2播放器](https://github.com/iina/iina/releases)
 - [Tuxera NTFS 2018 让你的Mac支持NTFS](https://xclient.info/s/tuxera-ntfs.html)
+- [划词类集合拓展软件](https://pilotmoon.com/popclip/)
 ### 反编译工具
 - [Luyten](https://github.com/deathmarine/Luyten/releases/tag/v0.5.3)
 - [jd-gui](https://github.com/java-decompiler/jd-gui)
