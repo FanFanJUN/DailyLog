@@ -1,7 +1,5 @@
-<div style=" text-align: center;">
-<mark style="font-size: 40px; color: deepskyblue; font-weight: bold;font-family: cursive;">
-梦溪笔谈<sub style="font-size: 16px;color: deeppink;">【记录开发所遇到的点点滴滴】<sub>
-</mark>
+<div align="center">
+<h1>梦溪笔谈<h3>【记录开发所遇到的点点滴滴】</h3><hr/></h1>
 </div>
 
 # [开发文档线上API](https://devdocs.io/)
