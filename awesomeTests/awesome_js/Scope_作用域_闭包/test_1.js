@@ -4,10 +4,10 @@
 function a(params) {
     let n = 1;
     function b(params) {
+        n = n+1;
         console.log(n);
     }
     b();
 }
-
-a();
-a();
+a(); // 2
+a(); // 2

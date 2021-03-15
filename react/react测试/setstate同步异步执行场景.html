@@ -1,0 +1,117 @@
+<!DOCTYPE html><html>
+<head>
+    <meta charset="utf-8" />
+    <title>react demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.6/index.min.js" integrity="sha512-PMVw2HzV4gXtPe+BpvOQRQe9HtKcU4jA4N9ilRq+paTcz/ERKCt4d9hqXlslfsKOydknA4Y4JsiQexm/1W8zIA==" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+
+<div id="app"></div>
+
+
+<script type="text/babel">
+
+    //setTimeout中是同步执行
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.reactSyntheticEventClick=this.reactSyntheticEventClick.bind(this)
+            this.nativeDomEventClick=this.nativeDomEventClick.bind(this)
+            this.reactEventClickSetTimeout=this.reactEventClickSetTimeout.bind(this)
+            this.state = {
+                value: 0
+            }
+        }
+
+        //异步场景：多个setState会合拼处理，后面的会覆盖前面的赋值
+        //setTimeout中执行是同步
+        logMoreTimesSetState() {
+            this.setState({
+                value: this.state.value + 1
+            })
+
+            console.log(this.state.value);
+            //setTimeout执行结果:1
+            //nativeDomEvent执行结果Click：1
+
+            this.setState({
+                value: this.state.value + 1
+            })
+
+            console.log(this.state.value);
+            //setTimeout执行:2
+        }
+
+
+        //原生dom事件触发 react事件，setState同步执行
+        nativeDomEventClick() {
+            const $this = ReactDOM.findDOMNode(this);
+            $this.addEventListener('click',  (event)=>{
+                this.logMoreTimesSetState()
+            })
+        }
+
+        //
+        reactSyntheticEventClick() {
+            this.logMoreTimesSetState()
+        }
+
+        //只要有setTimeout都是同步执行
+        reactEventClickSetTimeout() {
+            setTimeout(() => {
+                this.logMoreTimesSetState()
+            }, 100)
+        }
+
+        componentDidMount() {
+
+            // this.nativeDomEventClick()
+
+            // this.nativeDomEventClick();
+
+            //合成多个事件
+            // this.logMoreTimesSetState();
+
+        }
+            //能过setTimeout
+
+
+        render() {
+                return (
+                    <div className="container">
+
+                        {this.state.value}
+
+                        <div style={{marginBottom: '10px'}}>
+                            <button onClick={this.reactSyntheticEventClick}>react合成事件</button>
+                        </div>
+
+                        <div style={{marginBottom: '10px'}}>
+                            <button onClick={this.nativeDomEventClick}>原生dom事件</button>
+                        </div>
+
+                        <div style={{marginBottom: '10px'}}>
+                            <button onClick={this.reactEventClickSetTimeout}>setTimeout执行</button>
+                        </div>
+
+                    </div>
+                )
+        }
+    }
+
+    ReactDOM.render(
+        <App />,
+        document.getElementById('app')
+    );
+</script>
+
+
+</body>
