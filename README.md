@@ -85,34 +85,11 @@
 - [Luyten](https://github.com/deathmarine/Luyten/releases/tag/v0.5.3)
 - [jd-gui](https://github.com/java-decompiler/jd-gui)
 
-### windows 设置 Cmder 终端
-
-```
-[vscode设置](https://stackoverflow.com/questions/45765853/how-to-use-cmder-in-visual-studio-code)
-
-"terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe",
-"terminal.integrated.shellArgs.windows": [
-    "/k %CMDER_ROOT%\\vendor\\init.bat"
-]
-[idea设置](https://www.jianshu.com/p/15ed849bcdde)
-"cmd.exe" /k ""%CMDER_ROOT%\vendor\init.bat""
-```
-
 <!-- /TOC -->
 
 # antd 4.0 进行时
 
 ### [官网](https://next.ant.design/index-cn)
-
-```
-蚂蚁金服体验技术部在第三届 SEE Conf （蚂蚁金服体验科技大会）发布了 Ant Design 4.0 组件库，主要特性：
-1、打包尺寸优化
-2、新增暗黑主题
-3、表单组件大量功能优化
-4、表格组件大量功能优化
-5、日历、日期选择组件大量功能优化
-6、性能优化：表格，选择器和树形选择器支持虚拟滚动
-```
 
 ### [Ant Design 4.0 进行时！](https://zhuanlan.zhihu.com/p/67511507)
 
@@ -300,65 +277,6 @@ export default new EventEmitter();
 - 判断两对象是否相等（别用 === ）
 - [JS 获取指定字符的前/后值](https://www.cnblogs.com/fdxjava/p/11698541.html)
 - 空数组判断
-
-```
-const a = [];
-if(a) {
-    console.log('true');
-} else {
-  console.log('false') ;
-}
-输出  true
-```
-
-- 过滤 js 虚值
-
-```
-虚值是 JavaScript 中的值为FALSE的值。 JavaScript 中只有六个虚值，它们是：
-
-undefined
-null
-NaN
-0
-'' (空字符)
-false
-
-
-const myArray =['1','',null, undefined, 0, NaN, false];
-console.log(myArray.filter(Boolean));
-输出 ['1']
-
-myArray
-    .map(item => {
-        // Do your changes and return the new item
-    })
-    .filter(Boolean);
-```
-
-- 方法参数校验
-
-```
-const isRequired = () => {
-  throw new Error('param is required')
-}
-
-const print = (num = isRequired()) => {
-  console.log(`printing ${num}`)
-}
-
-print(2) //printing 2
-print() // error
-print(null) //printing null
-
-```
-
-- 获取 URL 参数
-
-```
-import queryString from 'query-string';
-
-queryString.parse(window.location.search);
-```
 
 # 开源系列
 
