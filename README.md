@@ -115,7 +115,7 @@
 - [JS 获取指定字符的前/后值](https://www.cnblogs.com/fdxjava/p/11698541.html)
 
 # React 系列
-#### [React生命周期](https://github.com/FanFanJUN/DailyLog/blob/master/react/ReactLifeStyle.md)
+#### [React生命周期](https://github.com/FanFanJUN/DailyLog/blob/master/react/ReactLifeStyle.pdf)
 
 #### React性能优化
 - shouldComponentUpdate、PureComponent、React.memo(避免不必要的渲染)
