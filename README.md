@@ -8,7 +8,8 @@
 - [微前端在小米 CRM 系统的实践](https://xiaomi-info.github.io/2020/04/14/fe-microfrontends-practice/)
 - [微前端在美团外卖的实践](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
 - [阿里-qiankun](https://qiankun.umijs.org/zh/guide)
-
+- [Why Not Iframe](https://www.yuque.com/kuitos/gky7yw/gesexv)
+![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/iframe微前端弊端.png)
 # 工具集
 
 - [utils](https://github.com/FanFanJUN/DailyLog/tree/master/utils)
