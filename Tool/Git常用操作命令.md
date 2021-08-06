@@ -190,3 +190,34 @@ Merge: 312a518 fa87415 //312a518和fa87415 可以在git log中找到对应的提
 
 那么，$ git revert -m 1 g 将会保留 master 分支上的修改，撤销 dev 分支上的修改。//(1就是1，表示312a518对应的父来源，2表示fa87415对应的父来源)撤销成功之后，Git 将会生成一个新的 Commit
 ```
+#### [使用 git log 查看提交的日志](https://blog.csdn.net/weixin_44653603/article/details/87652166)
+
+
+- 日志列表 
+
+```
+git log --oneline
+```
+
+- 控制输出的行数
+
+```
+git log --oneline -3
+```
+- 指定作者
+
+```
+git log --oneline --author='iYeacle'  --oneline
+```
+
+- 日期之前
+
+```
+git log --oneline --before='2019-2-18'
+```
+- 日期之后
+
+```
+git log --oneline --after='1 week'
+git log --oneline --after='2021-05-31' --author="1981824361@qq.com"
+```

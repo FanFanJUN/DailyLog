@@ -4,16 +4,16 @@
 
 # [开发文档线上API](https://devdocs.io/)
 
-# [微前端](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/微前端.md)
+# [微前端](https://github.com/FanFanJUN/DailyLog/blob/master/other/微前端.md)
 - [微前端在小米 CRM 系统的实践](https://xiaomi-info.github.io/2020/04/14/fe-microfrontends-practice/)
 - [微前端在美团外卖的实践](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
 - [阿里-qiankun](https://qiankun.umijs.org/zh/guide)
 
 # 工具集
 
-- [utils](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/tree/master/utils)
+- [utils](https://github.com/FanFanJUN/DailyLog/tree/master/utils)
 
-- [Git 常用操作命令](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Git常用操作命令.md)
+- [Git 常用操作命令](https://github.com/FanFanJUN/DailyLog/blob/master/Tool/Git常用操作命令.md)
 
 # 生产力工具汇总
 
@@ -97,69 +97,33 @@
 
 ### [参加第三届蚂蚁体验科技大会 SEE Conf 2020 是什么体验？](https://www.zhihu.com/question/363807174)
 
-# [SpringBoot 走过的坑](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/springboot/springboot.md)
+# js 系列
 
-- [Mybatis generator mapper 文件重新生成不会覆盖原文件](https://blog.csdn.net/zengqiang1/article/details/79381418)
-- springboot 服务器部署
-- springboot 集成 druid
-- [Spring Boot 最常用的 3 种读取 properties 配置文件中数据的方法：](https://blog.csdn.net/dkbnull/article/details/81953190)
-- [Java 开启线程方式（用于启动应用程序）](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/thread.md)
-
-# IDEA 插件
-
-##### Mybatis 工具：Free Mybatis plugin(方便进行 Mapper 接口和 XML 文件之间跳转)
-
-##### Maven 辅助神器：Maven Helper(解决 JAR 包冲突)
-
-##### 阿里代码规约检测(GitHub:https://github.com/alibaba/p3c)
-
-# 服务器相关
-
-- [云服务器安装 NGINX 详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXinstall.md)
-
-- [云服务器安装 NGINX 配置文件解析](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXconf.md)
-
-- [云服务器安装 mysql 详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/yumMysql.md)
-
-- [云服务器安装 java 详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/yumJava.md)
-
-# Redis
-
-- [云服务器安装 redis 以及集群搭建](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/Linux/Redis/redis与redis集群服务的安装.md)
-
-# DOCKER
-
-- [云服务器安装 docker 详细安装步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerinstall.md)
-
-- [docker 详细安装 nginx 步骤](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/dockerNGINX.md)
-
-- [Nginx 配置参数详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/nginx/NGINXdetail.md)
-
-- [10 分钟搭建自己的 Git 仓库](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/docker/prigitlab.md)
-
-# Other
-
-##### maven--plugin--pom--Usage
-
-- [maven-pom 文件详解](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/maven.md)
-- [Apache Maven Assembly Plugin](http://maven.apache.org/plugins/maven-assembly-plugin/index.html)
-- [maven-assembly-plugin 入门指南](https://www.jianshu.com/p/14bcb17b99e0)
-- [maven-assembly-plugin 的详细使用](https://blog.wfyvv.com/archives/25.html)
-- [利用 assembly 插件分环境打包配置文件](https://www.jianshu.com/p/7e7c7c95ff13)
-- [org.polago.maven.plugins---合并多个配置文件至一个文件](https://www.polago.org/merge-properties-maven-plugin/usage.html)
-- [maven-remote-resources-pluginmaven 多项目资源共享](https://maven.apache.org/plugins/maven-remote-resources-plugin/examples/sharing-resources.html)
-
-##### [Github 远程仓库和本地文件的关联](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/gitrelationgithub.md)
-
-##### [echarts 自定义工具全屏](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/other/echartsfullscreen.md)
-
-##### [自建 ssr 服务器教程](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/ssrbuild.md)
-
-##### [张鑫旭 SVG 小图标](https://www.zhangxinxu.com/sp/icon/)
-
-##### [mybatis 逻辑分页与物理分页](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/background/mybatis逻辑分页与物理分页.md)
+- [js 对数组的操作](https://github.com/FanFanJUN/DailyLog/blob/master/js/array.md)
+- [JS 数组遍历常用方法](https://github.com/FanFanJUN/DailyLog/blob/master/js/jsfor.md)
+- [防抖和节流](https://github.com/FanFanJUN/DailyLog/blob/master/js/防抖和节流函数.md)
+- [全屏 js](https://github.com/FanFanJUN/DailyLog/blob/master/js/全屏js.md)
+- [Javascript 获取数组中最大和最小值](https://github.com/FanFanJUN/DailyLog/blob/master/js/Javascript获取数组中最大和最小值.md)
+- [js 精度计算](https://github.com/FanFanJUN/DailyLog/blob/master/js/js精度计算.md)
+- [js 的微任务和宏任务](https://github.com/FanFanJUN/DailyLog/blob/master/js/js的微任务和宏任务.pdf)
+- [js 深浅拷贝](https://github.com/FanFanJUN/DailyLog/blob/master/js/js深浅拷贝.pdf)
+- [2020 年 js 新特性](https://github.com/FanFanJUN/DailyLog/blob/master/js/2020年js新特性.pdf)
+- [纯前端解析 excel](https://github.com/FanFanJUN/DailyLog/blob/master/js/纯前端解析excel.pdf)
+- [js 中的异步](https://github.com/FanFanJUN/DailyLog/blob/master/js/js中的异步.pdf)
+- [js 中的循环删除](https://github.com/FanFanJUN/DailyLog/blob/master/js/js中的循环删除.pdf)
+- 判断两对象是否相等（别用 === ）
+- [JS 获取指定字符的前/后值](https://www.cnblogs.com/fdxjava/p/11698541.html)
 
 # React 系列
+#### [React生命周期](https://github.com/FanFanJUN/DailyLog/blob/master/react/ReactLifeStyle.md)
+
+#### React性能优化
+- shouldComponentUpdate、PureComponent、React.memo(避免不必要的渲染)
+- 使用 React Fragments 避免额外标记
+- 懒加载组件(react中使用到了Suspense和 lazy组件实现代码拆分功能)
+- dom节点唯一key
+- [15 分钟学会 Immutable](https://juejin.cn/post/6976798974757830687)
+- [immer —— 提高React开发效率的神器](https://zhuanlan.zhihu.com/p/146773995)
 
 ##### [es6 的十大特性](https://www.geekjc.com/post/5d2fcbe9727a4f16c02d0fe1)
 
@@ -176,11 +140,11 @@
 
 ##### [Ant Design 组件库的官方教程，由 Ant Design 开发团队负责编写](https://www.yuque.com/ant-design/course)
 
-##### [在 Raect 中使用 Echarts](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Echarts.md)
+##### [在 Raect 中使用 Echarts](https://github.com/FanFanJUN/DailyLog/blob/master/react/Echarts.md)
 
-##### [React Router 跳转及页面传值](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/routervalue.md)
+##### [React Router 跳转及页面传值](https://github.com/FanFanJUN/DailyLog/blob/master/react/routervalue.md)
 
-##### [React 技术栈学习路线](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/Reactjsz.md)
+##### [React 技术栈学习路线](https://github.com/FanFanJUN/DailyLog/blob/master/react/Reactjsz.md)
 
 ##### [React 中组件间通信的几种方式](https://www.geekjc.com/post/5d1042d2d0c7531201ac2fa2)
 
@@ -188,6 +152,7 @@
 - 子组件向父组件通信
 - 跨级组件之间通信 context
 - 非嵌套组件间通信
+- Redux
 
 ```
 install events依赖
@@ -210,7 +175,7 @@ export default new EventEmitter();
 
 ##### [使用 React hook 时父组件如何调用子组件中的方法](https://www.leevii.com/2019/08/how-to-call-a-method-in-a-subcomponent-when-using-a-react-hook.html)
 
-# [AntDesign 系列](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/antd/antds.md)
+# [AntDesign 系列](https://github.com/FanFanJUN/DailyLog/blob/master/antd/antds.md)
 
 - AntD 对 request.js 的封装
 - 对 AntD model 的封装
@@ -226,7 +191,7 @@ export default new EventEmitter();
 - React context 高阶运用(父子孙组件传值)
 - AntD Tabs 标签页如何切换标签时立即更新标签内 content 内容(而不是带有缓存内容不改变)
 - 函数式异步请求（request 等）返回的 Promise 对象怎样获取其中的值
-- [antd 文件上传下载](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/antdownup.md)
+- [antd 文件上传下载](https://github.com/FanFanJUN/DailyLog/blob/master/react/antdownup.md)
 - [antd +dva 实现动态获取树形数据表格](https://blog.csdn.net/Zeng__Yi/article/details/89226670)
 - [antd BUG 记录日志](http://note.youdao.com/noteshare?id=7137341604464341350b984089bc335b)
 
@@ -243,7 +208,7 @@ export default new EventEmitter();
 - [Styled Components](https://github.com/styled-components/styled-components)
 - [ali-react-table(阿里出品-现代化的高性能 React 表格组件)](https://ali-react-table.js.org/)
 
-# [工具函数系列](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/utils.md)
+# [工具函数系列](https://github.com/FanFanJUN/DailyLog/blob/master/js/utils.md)
 
 - 公民身份号码正确性判定及程序实现
 - form 表单删除空字符串
@@ -259,30 +224,11 @@ export default new EventEmitter();
 - [js 去除空格 12 种方法](https://www.geekjc.com/post/5b8749799f04900c18a1e5f9)
 - JavaScript 常用工具方法封装
 
-# js 系列
-
-- [js 对数组的操作](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/array.md)
-- [JS 数组遍历常用方法](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/jsfor.md)
-- [防抖和节流](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/防抖和节流函数.md)
-- [全屏 js](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/全屏js.md)
-- [Javascript 获取数组中最大和最小值](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/Javascript获取数组中最大和最小值.md)
-- [js 精度计算](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js精度计算.md)
-- [js 的微任务和宏任务](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js的微任务和宏任务.pdf)
-- [js 深浅拷贝](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js深浅拷贝.pdf)
-- [2020 年 js 新特性](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/2020年js新特性.pdf)
-- [纯前端解析 excel](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/纯前端解析excel.pdf)
-- [js 中的异步](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js中的异步.pdf)
-- [js 中的循环删除](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/js/js中的循环删除.pdf)
-- Promise.all
-- 判断两对象是否相等（别用 === ）
-- [JS 获取指定字符的前/后值](https://www.cnblogs.com/fdxjava/p/11698541.html)
-- 空数组判断
-
 # 开源系列
 
 - [spring-boot-plus](https://springboot.plus/)
 - [AntV-G6](https://www.yuque.com/antv/g6/intro)
-- [AntV-G6 可视化 tree 在 React 中最佳实践](https://github.com/FanFanJUN/STUDY-DAY-BY-DAY/blob/master/react/G6Tree.js)
+- [AntV-G6 可视化 tree 在 React 中最佳实践](https://github.com/FanFanJUN/DailyLog/blob/master/react/G6Tree.js)
 
 # 推荐 NPM 依赖模块系列
 
@@ -330,6 +276,67 @@ setTimeout(ws.reconnect, 10e3);
 
 - [umi-plugin-qrcode 运行时在控制台打印二维码](https://www.npmjs.com/package/umi-plugin-qrcode)
 
+# [SpringBoot 走过的坑](https://github.com/FanFanJUN/DailyLog/blob/master/background/springboot/springboot.md)
+
+- [Mybatis generator mapper 文件重新生成不会覆盖原文件](https://blog.csdn.net/zengqiang1/article/details/79381418)
+- springboot 服务器部署
+- springboot 集成 druid
+- [Spring Boot 最常用的 3 种读取 properties 配置文件中数据的方法：](https://blog.csdn.net/dkbnull/article/details/81953190)
+- [Java 开启线程方式（用于启动应用程序）](https://github.com/FanFanJUN/DailyLog/blob/master/background/thread.md)
+
+# IDEA 插件
+
+##### Mybatis 工具：Free Mybatis plugin(方便进行 Mapper 接口和 XML 文件之间跳转)
+
+##### Maven 辅助神器：Maven Helper(解决 JAR 包冲突)
+
+##### 阿里代码规约检测(GitHub:https://github.com/alibaba/p3c)
+
+# 服务器相关
+
+- [云服务器安装 NGINX 详细安装步骤](https://github.com/FanFanJUN/DailyLog/blob/master/nginx/NGINXinstall.md)
+
+- [云服务器安装 NGINX 配置文件解析](https://github.com/FanFanJUN/DailyLog/blob/master/nginx/NGINXconf.md)
+
+- [云服务器安装 mysql 详细安装步骤](https://github.com/FanFanJUN/DailyLog/blob/master/yumMysql.md)
+
+- [云服务器安装 java 详细安装步骤](https://github.com/FanFanJUN/DailyLog/blob/master/yumJava.md)
+
+# Redis
+
+- [云服务器安装 redis 以及集群搭建](https://github.com/FanFanJUN/DailyLog/blob/master/Linux/Redis/redis与redis集群服务的安装.md)
+
+# DOCKER
+
+- [云服务器安装 docker 详细安装步骤](https://github.com/FanFanJUN/DailyLog/blob/master/docker/dockerinstall.md)
+
+- [docker 详细安装 nginx 步骤](https://github.com/FanFanJUN/DailyLog/blob/master/docker/dockerNGINX.md)
+
+- [Nginx 配置参数详解](https://github.com/FanFanJUN/DailyLog/blob/master/nginx/NGINXdetail.md)
+
+- [10 分钟搭建自己的 Git 仓库](https://github.com/FanFanJUN/DailyLog/blob/master/docker/prigitlab.md)
+
+# Other
+
+##### maven--plugin--pom--Usage
+
+- [maven-pom 文件详解](https://github.com/FanFanJUN/DailyLog/blob/master/other/maven.md)
+- [Apache Maven Assembly Plugin](http://maven.apache.org/plugins/maven-assembly-plugin/index.html)
+- [maven-assembly-plugin 入门指南](https://www.jianshu.com/p/14bcb17b99e0)
+- [maven-assembly-plugin 的详细使用](https://blog.wfyvv.com/archives/25.html)
+- [利用 assembly 插件分环境打包配置文件](https://www.jianshu.com/p/7e7c7c95ff13)
+- [org.polago.maven.plugins---合并多个配置文件至一个文件](https://www.polago.org/merge-properties-maven-plugin/usage.html)
+- [maven-remote-resources-pluginmaven 多项目资源共享](https://maven.apache.org/plugins/maven-remote-resources-plugin/examples/sharing-resources.html)
+
+##### [Github 远程仓库和本地文件的关联](https://github.com/FanFanJUN/DailyLog/blob/master/other/gitrelationgithub.md)
+
+##### [echarts 自定义工具全屏](https://github.com/FanFanJUN/DailyLog/blob/master/other/echartsfullscreen.md)
+
+##### [自建 ssr 服务器教程](https://github.com/FanFanJUN/DailyLog/blob/master/ssrbuild.md)
+
+##### [张鑫旭 SVG 小图标](https://www.zhangxinxu.com/sp/icon/)
+
+##### [mybatis 逻辑分页与物理分页](https://github.com/FanFanJUN/DailyLog/blob/master/background/mybatis逻辑分页与物理分页.md)
 # sql 系列
 
 ### 查看 mysql 版本
