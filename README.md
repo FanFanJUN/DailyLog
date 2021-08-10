@@ -126,7 +126,11 @@
 - [15 分钟学会 Immutable](https://juejin.cn/post/6976798974757830687)
 - [immer —— 提高React开发效率的神器](https://zhuanlan.zhihu.com/p/146773995)
 - 避免使用内联函数(使用内联函数，则每次调用render函数时都会创建一个新的函数实例)
-
+- React.memo() 和 useMemo() 的主要区别
+```
+React.memo() 是一个高阶组件，我们可以使用它来包装我们不想重新渲染的组件，除非其中的 props 发生变化。
+useMemo() 是一个 React Hook，我们可以使用它在组件中包装函数。我们可以使用它来确保该函数中的值仅在其依赖项之一发生变化时才重新计算。
+```
 ##### [es6 的十大特性](https://www.geekjc.com/post/5d2fcbe9727a4f16c02d0fe1)
 
 - Default Parameters（默认参数） in ES6
@@ -177,7 +181,11 @@ export default new EventEmitter();
 
 ##### [使用 React hook 时父组件如何调用子组件中的方法](https://www.leevii.com/2019/08/how-to-call-a-method-in-a-subcomponent-when-using-a-react-hook.html)
 
-#### [ReactHooks](https://github.com/FanFanJUN/DailyLog/blob/master/react/ReactHooks.md)
+##### [ReactHooks](https://github.com/FanFanJUN/DailyLog/blob/master/react/ReactHooks.md)
+
+##### [React.memo() 和 useMemo() 的用法与区别](https://mp.weixin.qq.com/s/zxT2GfujdbQfvrCtRxkbiQ)
+
+##### [react hooks 万字总结](https://juejin.cn/post/6993139082054336548)
 
 # [AntDesign 系列](https://github.com/FanFanJUN/DailyLog/blob/master/antd/antds.md)
 
