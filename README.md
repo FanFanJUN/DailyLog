@@ -100,8 +100,7 @@
 
 # js 系列
 
-- [js 对数组的操作](https://github.com/FanFanJUN/DailyLog/blob/master/js/array.md)
-- [JS 数组遍历常用方法](https://github.com/FanFanJUN/DailyLog/blob/master/js/jsfor.md)
+- [JS 数组 API](https://github.com/FanFanJUN/DailyLog/blob/master/img/jsArrayWays.png)
 - [防抖和节流](https://github.com/FanFanJUN/DailyLog/blob/master/js/防抖和节流函数.md)
 - [全屏 js](https://github.com/FanFanJUN/DailyLog/blob/master/js/全屏js.md)
 - [Javascript 获取数组中最大和最小值](https://github.com/FanFanJUN/DailyLog/blob/master/js/Javascript获取数组中最大和最小值.md)
