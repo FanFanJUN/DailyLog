@@ -99,7 +99,7 @@
 ### [参加第三届蚂蚁体验科技大会 SEE Conf 2020 是什么体验？](https://www.zhihu.com/question/363807174)
 
 # js 系列
-
+![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/eventLoop.png)
 - [JS 数组 API](https://github.com/FanFanJUN/DailyLog/blob/master/img/jsArrayWays.png)
 - [防抖和节流](https://github.com/FanFanJUN/DailyLog/blob/master/js/防抖和节流函数.md)
 - [全屏 js](https://github.com/FanFanJUN/DailyLog/blob/master/js/全屏js.md)
