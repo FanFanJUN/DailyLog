@@ -221,3 +221,44 @@ git log --oneline --before='2019-2-18'
 git log --oneline --after='1 week'
 git log --oneline --after='2021-05-31' --author="1981824361@qq.com"
 ```
+#### [Github远程仓库和本地文件的关联](https://www.jianshu.com/p/e13360495b07)
+- Git全局配置
+
+```
+git config --global user.name "mistdon"
+git config --global user.email "xxxx@gmail.com"
+长期存储密码
+git config --global credential.helper store
+全局提交账号名
+git config --global credential.username licai
+```
+- git clone 指定分支
+
+```
+ git clone -b dev_jk http://10.1.1.11/service/tmall-service.git
+```
+
+- 远程仓库已创建，拉取远程仓库增加内容并提交
+
+```
+git clone https://gitlab.com/Dongshen/Today.git
+cd Today
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+```
+- Existing folder本地已存在与远程仓库关联
+
+```
+cd existing_folder
+git init
+若存在绑定先输入 git remote rm origin
+git remote add origin https://gitlab.com/Dongshen/Today.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+```
+[注意](https://www.cnblogs.com/wei325/p/5278922.html)
