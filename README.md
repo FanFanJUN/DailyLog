@@ -18,6 +18,12 @@
 
 # 生产力工具汇总
 
+### Vscode插件安装
+- [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+- [React Redux ES6 Snippets
+](https://marketplace.visualstudio.com/items?itemName=timothymclane.react-redux-es6-snippets)
+- [React-Native/React/Redux snippets for es6/es7](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
+
 ### [油猴 tampermonkey 脚本](https://www.tampermonkey.net/)
 
 - AC-baidu-重定向优化百度搜狗谷歌必应搜索*favicon*双列
