@@ -12,85 +12,9 @@
 ![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/iframe微前端弊端.png)
 # 工具集
 
-- [utils](https://github.com/FanFanJUN/DailyLog/tree/master/utils)
+- [生产力工具汇总](https://github.com/FanFanJUN/DailyLog/issues/2)
 
-- [Git 常用操作命令](https://github.com/FanFanJUN/DailyLog/blob/master/Tool/Git常用操作命令.md)
-
-# 生产力工具汇总
-
-### Vscode插件安装
-- [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
-- [React Redux ES6 Snippets
-](https://marketplace.visualstudio.com/items?itemName=timothymclane.react-redux-es6-snippets)
-- [React-Native/React/Redux snippets for es6/es7](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
-
-### [油猴 tampermonkey 脚本](https://www.tampermonkey.net/)
-
-- AC-baidu-重定向优化百度搜狗谷歌必应搜索*favicon*双列
-- UserScript+--: 显示适用的 UserJS 脚本数及跳转
-- 懒人专用，全网 VIP 视频免费破解去广告、全网音乐直接下载、百度网盘直接下载、知乎视频下载等多合一版。长期更新，放心使用。
-- 知乎网页助手
-- 秒传链接提取
-- 计时器掌控者|视频广告跳过|视频广告加速器
-- 豆瓣资源下载大师：1 秒搞定豆瓣电影|音乐|图书下载
-
-### [谷粒-Chrome 插件英雄榜](https://github.com/zhaoolee/ChromeAppHeroes)
-
-- [《GitHub 加速》提高中国开发者访问 GitHub 的速度](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg)
-- [《Web for TikTok》用 Chrome 刷海外版抖音 TikTok，下载 Tiktok 视频](https://chrome.google.com/webstore/detail/dedphjedjalglppdfpmmibdbbkmifnbb)
-- [《知乎网页助手》让网页版知乎更好用](https://www.v2fy.com/p/088-zhihu-2020-12-19/)
-
-### Chrome 插件必备
-
-- [AdBlock — 最佳广告拦截工具](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
-- [FeHelper--Web 前端助手](https://github.com/zxlie/FeHelper)
-- [oh-my-cookie(一个用于导出，增删改查 cookie、sessionstorage、localstorage 的 Chrome 扩展)](https://github.com/codedance98/oh-my-cookie)
-- [Smart TOC](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba)
-- [codecopy(A browser extension that adds copy to clipboard buttons on every code block)](https://github.com/zenorocha/codecopy)
-- [CSDN 开发助手](https://plugin.csdn.net/)
-- [MoonTab 新标签页](https://chrome.google.com/webstore/detail/moontab-%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/jjfjapjnjdoehnmecalfglbaefkmchfk)
-- [Evernote Web Clipper(印象笔记剪藏)](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
-- [Octotree - GitHub code tree(树形显示 Github)](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc)
-- [Open Frame(iframe 打开)](https://chrome.google.com/webstore/detail/open-frame/kdhjgkkaacdhdioocfbpmhjidbinfajj)
-- [掘金插件(为程序员、设计师、产品经理每日发现优质内容)](https://chrome.google.com/webstore/detail/%E6%8E%98%E9%87%91/lecdifefmmfjnjjinhaennhdlmcaeeeb)
-- [有道云笔记网页剪报](https://chrome.google.com/webstore/detail/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0%E7%BD%91%E9%A1%B5%E5%89%AA%E6%8A%A5/joinpgckiioeklibflapokicmndlcnef)
-- [GitZip for github(单独下载 github 文件 不用整个 clone)](https://chrome.google.com/webstore/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn)
-
-### [精品 mac 应用分享](https://xclient.info/)
-
-### [都装了啥-阿里云谦](https://github.com/sorrycc/awesome-tools)
-
-- [Navicat-数据库连接客户端-U 盘](https://xclient.info/s/navicat-premium.html)
-- [Chrome 浏览器](https://www.google.cn/intl/zh-CN/chrome/)
-- [Git](https://git-scm.com/)
-- [tortoisegit-win](https://tortoisegit.org/)
-- [Git GUI-sourcetree](https://www.sourcetreeapp.com/)
-- [Homebrew](https://brew.sh/index_zh-cn)
-- [Yarn](https://yarn.bootcss.com/)
-- [Cnpm-npm 淘宝镜像](https://github.com/cnpm/cnpm)
-- [Node](https://nodejs.org/en/)
-- [Idea-201902](https://www.onlinedown.net/soft/1227779.htm)
-- [Maven](https://maven.apache.org/download.cgi)
-- [JDK1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-- [shadowsocks](https://shadowsocks.org/en/download/clients.html)
-- [cmder](https://cmder.net/)
-- [工具：前端开发助手 FeHelper](https://github.com/zxlie/FeHelp)
-- [Mac 终端-iterm2](https://iterm2.com/)
-- [PostMan](https://www.postman.com/)
-- [Postwoman](https://github.com/liyasthomas/postwoman)
-- [xshell & xftp-win](http://mydown.yesky.com/pcsoft/413565742.html)
-- [Idea-Java 开发](https://xclient.info/s/intellij-idea.html)
-- [Vscode-前端开发](https://code.visualstudio.com/)
-- [XMind: ZEN 9.1.3 思维导图](https://xclient.info/s/xmind-zen.html)
-- [Axure RP 9.0.0.3722 专业的快速原型设计工具](https://xclient.info/s/axure-rp.html)
-- [IINA 1.1.2 播放器](https://github.com/iina/iina/releases)
-- [Tuxera NTFS 2018 让你的 Mac 支持 NTFS](https://xclient.info/s/tuxera-ntfs.html)
-- [划词类集合拓展软件](https://pilotmoon.com/popclip/)
-
-### 反编译工具
-
-- [Luyten](https://github.com/deathmarine/Luyten/releases/tag/v0.5.3)
-- [jd-gui](https://github.com/java-decompiler/jd-gui)
+- [Git常用操作命令](https://github.com/FanFanJUN/DailyLog/issues/1)
 
 <!-- /TOC -->
 
@@ -119,7 +43,7 @@
 - Block-Scoped Constructs Let and Const（块作用域构造 Let and Const）
 - Classes（类） in ES6
 - Modules（模块） in ES6
-  #### 其他js相关
+##### 其他js相关
 - [JS 数组 API](https://github.com/FanFanJUN/DailyLog/blob/master/img/jsArrayWays.png)
 - [防抖和节流](https://github.com/FanFanJUN/DailyLog/blob/master/js/防抖和节流函数.md)
 - [全屏 js](https://github.com/FanFanJUN/DailyLog/blob/master/js/全屏js.md)
