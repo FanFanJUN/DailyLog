@@ -46,13 +46,12 @@
 ##### 其他js相关
 - [JS 数组 API](https://github.com/FanFanJUN/DailyLog/blob/master/img/jsArrayWays.png)
 - [防抖和节流](https://github.com/FanFanJUN/DailyLog/blob/master/js/防抖和节流函数.md)
-- [全屏 js](https://github.com/FanFanJUN/DailyLog/blob/master/js/全屏js.md)
+- [全屏 js](https://github.com/FanFanJUN/DailyLog/issues/4)
 - [Javascript 获取数组中最大和最小值](https://github.com/FanFanJUN/DailyLog/blob/master/js/Javascript获取数组中最大和最小值.md)
 - [js 精度计算](https://github.com/FanFanJUN/DailyLog/blob/master/js/js精度计算.md)
 - [js 的微任务和宏任务](https://github.com/FanFanJUN/DailyLog/blob/master/js/js的微任务和宏任务.pdf)
 - [js 深浅拷贝](https://github.com/FanFanJUN/DailyLog/blob/master/js/js深浅拷贝.pdf)
-- [2020 年 js 新特性](https://github.com/FanFanJUN/DailyLog/blob/master/js/2020年js新特性.pdf)
-- [纯前端解析 excel](https://github.com/FanFanJUN/DailyLog/blob/master/js/纯前端解析excel.pdf)
+- [纯前端解析 excel](https://github.com/FanFanJUN/DailyLog/issues/3)
 - [js 中的异步](https://github.com/FanFanJUN/DailyLog/blob/master/js/js中的异步.pdf)
 - [js 中的循环删除](https://github.com/FanFanJUN/DailyLog/blob/master/js/js中的循环删除.pdf)
 - 判断两对象是否相等（别用 === ）
