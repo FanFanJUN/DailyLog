@@ -106,6 +106,20 @@
 
 # js 系列
 ![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/eventLoop.png)
+![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/ES新特性.png)
+##### [es6 的十大特性](https://www.geekjc.com/post/5d2fcbe9727a4f16c02d0fe1)
+
+- Default Parameters（默认参数） in ES6
+- Template Literals （模板文本）in ES6
+- Multi-line Strings （多行字符串）in ES6
+- Destructuring Assignment （解构赋值）in ES6
+- Enhanced Object Literals （增强的对象文本）in ES6
+- Arrow Functions （箭头函数）in ES6
+- Promises in ES6
+- Block-Scoped Constructs Let and Const（块作用域构造 Let and Const）
+- Classes（类） in ES6
+- Modules（模块） in ES6
+  #### 其他js相关
 - [JS 数组 API](https://github.com/FanFanJUN/DailyLog/blob/master/img/jsArrayWays.png)
 - [防抖和节流](https://github.com/FanFanJUN/DailyLog/blob/master/js/防抖和节流函数.md)
 - [全屏 js](https://github.com/FanFanJUN/DailyLog/blob/master/js/全屏js.md)
@@ -141,19 +155,6 @@
 React.memo() 是一个高阶组件，我们可以使用它来包装我们不想重新渲染的组件，除非其中的 props 发生变化。
 useMemo() 是一个 React Hook，我们可以使用它在组件中包装函数。我们可以使用它来确保该函数中的值仅在其依赖项之一发生变化时才重新计算。
 ```
-##### [es6 的十大特性](https://www.geekjc.com/post/5d2fcbe9727a4f16c02d0fe1)
-
-- Default Parameters（默认参数） in ES6
-- Template Literals （模板文本）in ES6
-- Multi-line Strings （多行字符串）in ES6
-- Destructuring Assignment （解构赋值）in ES6
-- Enhanced Object Literals （增强的对象文本）in ES6
-- Arrow Functions （箭头函数）in ES6
-- Promises in ES6
-- Block-Scoped Constructs Let and Const（块作用域构造 Let and Const）
-- Classes（类） in ES6
-- Modules（模块） in ES6
-
 ##### [Ant Design 组件库的官方教程，由 Ant Design 开发团队负责编写](https://www.yuque.com/ant-design/course)
 
 ##### [在 Raect 中使用 Echarts](https://github.com/FanFanJUN/DailyLog/blob/master/react/Echarts.md)
