@@ -125,6 +125,7 @@
 - [揭秘Vue中的Virtual Dom](https://github.com/ljianshu/Blog/issues/69)
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom)
 - [snabbdom](https://github.com/snabbdom/snabbdom)
+- [diff 算法深入一下？](https://zhuanlan.zhihu.com/p/401340016)
 #### [React生命周期](https://github.com/FanFanJUN/DailyLog/blob/master/react/ReactLifeStyle.pdf)
 
 #### React性能优化
