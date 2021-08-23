@@ -30,6 +30,7 @@
 
 # js 系列
 ![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/eventLoop.png)
+![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/js的数据类型.png)
 ![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/ES新特性.png)
 ##### [es6 的十大特性](https://www.geekjc.com/post/5d2fcbe9727a4f16c02d0fe1)
 - Default Parameters（默认参数） in ES6
