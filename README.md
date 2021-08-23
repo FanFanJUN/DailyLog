@@ -81,6 +81,7 @@
 - [immer —— 提高React开发效率的神器](https://zhuanlan.zhihu.com/p/146773995)
 - 避免使用内联函数(使用内联函数，则每次调用render函数时都会创建一个新的函数实例)
 - React.memo() 和 useMemo() 的主要区别
+- useCallback 缓存函数
 ```
 React.memo() 是一个高阶组件，我们可以使用它来包装我们不想重新渲染的组件，除非其中的 props 发生变化。
 useMemo() 是一个 React Hook，我们可以使用它在组件中包装函数。我们可以使用它来确保该函数中的值仅在其依赖项之一发生变化时才重新计算。
