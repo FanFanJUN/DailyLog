@@ -32,7 +32,6 @@
 ![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/eventLoop.png)
 ![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/ES新特性.png)
 ##### [es6 的十大特性](https://www.geekjc.com/post/5d2fcbe9727a4f16c02d0fe1)
-
 - Default Parameters（默认参数） in ES6
 - Template Literals （模板文本）in ES6
 - Multi-line Strings （多行字符串）in ES6
@@ -43,6 +42,13 @@
 - Block-Scoped Constructs Let and Const（块作用域构造 Let and Const）
 - Classes（类） in ES6
 - Modules（模块） in ES6
+##### ES6+常用
+- ES7 的 Array.prototype.includes()
+- ES8 的 async/await 、String padding: padStart()和padEnd() 、 Object.values()
+- ES9 的 Rest/Spread 属性、for await of、 Promise.finally()
+- ES10 的 Array.prototype.flat() 、 Array.prototype.flatMap() 、String的 trimStart() trimEnd()
+- ES11 的 Promise.allSettled 、空值处理及可选链
+- ES12 Promise.any()
 ##### 其他js相关
 - [JS 数组 API](https://github.com/FanFanJUN/DailyLog/blob/master/img/jsArrayWays.png)
 - [防抖和节流](https://github.com/FanFanJUN/DailyLog/blob/master/js/防抖和节流函数.md)
