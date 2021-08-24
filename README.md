@@ -66,6 +66,7 @@
 
 # React 系列
 #### [Virtual DOM 与diff算法 ](https://github.com/livoras/blog/issues/13)
+![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/虚拟DOM.png)
 - [揭秘Vue中的Virtual Dom](https://github.com/ljianshu/Blog/issues/69)
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom)
 - [snabbdom](https://github.com/snabbdom/snabbdom)
