@@ -3,7 +3,6 @@
 </div>
 
 # [开发文档线上API](https://devdocs.io/)
-
 # [微前端](https://github.com/FanFanJUN/DailyLog/blob/master/other/微前端.md)
 - [微前端在小米 CRM 系统的实践](https://xiaomi-info.github.io/2020/04/14/fe-microfrontends-practice/)
 - [微前端在美团外卖的实践](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
@@ -11,23 +10,14 @@
 - [Why Not Iframe](https://www.yuque.com/kuitos/gky7yw/gesexv)
 ![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/iframe微前端弊端.png)
 # 工具集
-
 - [生产力工具汇总](https://github.com/FanFanJUN/DailyLog/issues/2)
-
 - [Git常用操作命令](https://github.com/FanFanJUN/DailyLog/issues/1)
-
 <!-- /TOC -->
-
 # antd 4.0 进行时
-
 ### [官网](https://next.ant.design/index-cn)
-
 ### [Ant Design 4.0 进行时！](https://zhuanlan.zhihu.com/p/67511507)
-
 ### [Ant Design 4.0 RC released!--更改概览](https://github.com/ant-design/ant-design/issues/20661)
-
 ### [参加第三届蚂蚁体验科技大会 SEE Conf 2020 是什么体验？](https://www.zhihu.com/question/363807174)
-
 # js 系列
 ![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/eventLoop.png)
 ![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/js的数据类型.png)
@@ -63,16 +53,13 @@
 - [js 中的循环删除](https://github.com/FanFanJUN/DailyLog/blob/master/js/js中的循环删除.pdf)
 - 判断两对象是否相等（别用 === ）
 - [JS 获取指定字符的前/后值](https://www.cnblogs.com/fdxjava/p/11698541.html)
-
 # React 系列
 #### [Virtual DOM 与diff算法 ](https://github.com/livoras/blog/issues/13)
-![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/虚拟DOM.png)
 - [揭秘Vue中的Virtual Dom](https://github.com/ljianshu/Blog/issues/69)
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom)
 - [snabbdom](https://github.com/snabbdom/snabbdom)
 - [diff 算法深入一下？](https://zhuanlan.zhihu.com/p/401340016)
 #### [React生命周期](https://github.com/FanFanJUN/DailyLog/blob/master/react/ReactLifeStyle.pdf)
-
 #### React性能优化
 - shouldComponentUpdate、PureComponent、React.memo(避免不必要的渲染)
 - 使用 React Fragments 避免额外标记
@@ -82,19 +69,14 @@
 - [immer —— 提高React开发效率的神器](https://zhuanlan.zhihu.com/p/146773995)
 - 避免使用内联函数(使用内联函数，则每次调用render函数时都会创建一个新的函数实例)
 - React.memo() 和 useMemo() 的主要区别
-- useCallback 缓存函数
 ```
 React.memo() 是一个高阶组件，我们可以使用它来包装我们不想重新渲染的组件，除非其中的 props 发生变化。
 useMemo() 是一个 React Hook，我们可以使用它在组件中包装函数。我们可以使用它来确保该函数中的值仅在其依赖项之一发生变化时才重新计算。
 ```
 ##### [Ant Design 组件库的官方教程，由 Ant Design 开发团队负责编写](https://www.yuque.com/ant-design/course)
-
 ##### [在 Raect 中使用 Echarts](https://github.com/FanFanJUN/DailyLog/blob/master/react/Echarts.md)
-
 ##### [React Router 跳转及页面传值](https://github.com/FanFanJUN/DailyLog/blob/master/react/routervalue.md)
-
 ##### [React 技术栈学习路线](https://github.com/FanFanJUN/DailyLog/blob/master/react/Reactjsz.md)
-
 ##### [React 中组件间通信的几种方式](https://www.geekjc.com/post/5d1042d2d0c7531201ac2fa2)
 
 - 父组件向子组件通信
@@ -113,25 +95,15 @@ export default new EventEmitter();
 ```
 
 ![image](https://geekjc-img.geekjc.com/FiCoJwlG9mHzStmC0jq7CXaYudUQ)
-
 #### React hooks(React v16.8)
-
 ##### [官网解读](https://react.docschina.org/docs/hooks-intro.html)
-
 ##### [阮一峰-React Hooks 入门教程](http://www.ruanyifeng.com/blog/2019/09/react-hooks.html?tdsourcetag=s_pctim_aiomsg)
-
 ##### [阮一峰-轻松学会 React 钩子：以 useEffect() 为例](http://www.ruanyifeng.com/blog/2020/09/react-hooks-useeffect-tutorial.html)
-
 ##### [使用 React hook 时父组件如何调用子组件中的方法](https://www.leevii.com/2019/08/how-to-call-a-method-in-a-subcomponent-when-using-a-react-hook.html)
-
 ##### [ReactHooks](https://github.com/FanFanJUN/DailyLog/blob/master/react/ReactHooks.md)
-
 ##### [React.memo() 和 useMemo() 的用法与区别](https://mp.weixin.qq.com/s/zxT2GfujdbQfvrCtRxkbiQ)
-
 ##### [react hooks 万字总结](https://juejin.cn/post/6993139082054336548)
-
 # [AntDesign 系列](https://github.com/FanFanJUN/DailyLog/blob/master/antd/antds.md)
-
 - AntD 对 request.js 的封装
 - 对 AntD model 的封装
 - Ant Design Pro 内存溢出（out of memory）
@@ -149,9 +121,7 @@ export default new EventEmitter();
 - [antd 文件上传下载](https://github.com/FanFanJUN/DailyLog/blob/master/react/antdownup.md)
 - [antd +dva 实现动态获取树形数据表格](https://blog.csdn.net/Zeng__Yi/article/details/89226670)
 - [antd BUG 记录日志](http://note.youdao.com/noteshare?id=7137341604464341350b984089bc335b)
-
 ### React 组件相关
-
 - [AntD 官方推荐社区精选组件](https://3x.ant.design/docs/react/recommendation-cn)
 - [实现 antd 的 modal 组件可以拖拽的功能(dragm)](https://blog.csdn.net/u013790941/article/details/102456054)
 - [React components foundation of ant.design(antd 底层基础组件)](http://react-component.github.io/)
@@ -162,9 +132,7 @@ export default new EventEmitter();
 - [react-pdf(Create PDF files using React)](https://github.com/diegomura/react-pdf)
 - [Styled Components](https://github.com/styled-components/styled-components)
 - [ali-react-table(阿里出品-现代化的高性能 React 表格组件)](https://ali-react-table.js.org/)
-
 # [工具函数系列](https://github.com/FanFanJUN/DailyLog/blob/master/js/utils.md)
-
 - 公民身份号码正确性判定及程序实现
 - form 表单删除空字符串
 - form 表单转换对象元素数组为字符串
@@ -178,15 +146,11 @@ export default new EventEmitter();
 - 对 AntD model 的封装
 - [js 去除空格 12 种方法](https://www.geekjc.com/post/5b8749799f04900c18a1e5f9)
 - JavaScript 常用工具方法封装
-
 # 开源系列
-
 - [spring-boot-plus](https://springboot.plus/)
 - [AntV-G6](https://www.yuque.com/antv/g6/intro)
 - [AntV-G6 可视化 tree 在 React 中最佳实践](https://github.com/FanFanJUN/DailyLog/blob/master/react/G6Tree.js)
-
 # 推荐 NPM 依赖模块系列
-
 - [screenfull](https://github.com/sindresorhus/screenfull.js/)(<span style="color: rgb(243,121,52);">全屏插件</span>)
 - [react-qmap](https://github.com/yezihaohao/react-qmap)(<span style="color: rgb(243,121,52);">一个对腾讯 web 地图简单封装的 React 组件</span>)
 - [react-amap](https://github.com/ElemeFE/react-amap)(<span style="color: rgb(243,121,52);">基于 React 封装的高德地图组件</span>)
@@ -226,13 +190,9 @@ setTimeout(ws.reconnect, 10e3);
 ```
 
 # webpack
-
 #### webpack 插件
-
 - [umi-plugin-qrcode 运行时在控制台打印二维码](https://www.npmjs.com/package/umi-plugin-qrcode)
-
 # [SpringBoot 走过的坑](https://github.com/FanFanJUN/DailyLog/blob/master/background/springboot/springboot.md)
-
 - [Mybatis generator mapper 文件重新生成不会覆盖原文件](https://blog.csdn.net/zengqiang1/article/details/79381418)
 - springboot 服务器部署
 - springboot 集成 druid
@@ -240,41 +200,24 @@ setTimeout(ws.reconnect, 10e3);
 - [Java 开启线程方式（用于启动应用程序）](https://github.com/FanFanJUN/DailyLog/blob/master/background/thread.md)
 
 # IDEA 插件
-
 ##### Mybatis 工具：Free Mybatis plugin(方便进行 Mapper 接口和 XML 文件之间跳转)
-
 ##### Maven 辅助神器：Maven Helper(解决 JAR 包冲突)
-
 ##### 阿里代码规约检测(GitHub:https://github.com/alibaba/p3c)
-
 # 服务器相关
-
 - [云服务器安装 NGINX 详细安装步骤](https://github.com/FanFanJUN/DailyLog/blob/master/nginx/NGINXinstall.md)
-
 - [云服务器安装 NGINX 配置文件解析](https://github.com/FanFanJUN/DailyLog/blob/master/nginx/NGINXconf.md)
-
 - [云服务器安装 mysql 详细安装步骤](https://github.com/FanFanJUN/DailyLog/blob/master/yumMysql.md)
-
 - [云服务器安装 java 详细安装步骤](https://github.com/FanFanJUN/DailyLog/blob/master/yumJava.md)
-
 # Redis
 
 - [云服务器安装 redis 以及集群搭建](https://github.com/FanFanJUN/DailyLog/blob/master/Linux/Redis/redis与redis集群服务的安装.md)
-
 # DOCKER
-
 - [云服务器安装 docker 详细安装步骤](https://github.com/FanFanJUN/DailyLog/blob/master/docker/dockerinstall.md)
-
 - [docker 详细安装 nginx 步骤](https://github.com/FanFanJUN/DailyLog/blob/master/docker/dockerNGINX.md)
-
 - [Nginx 配置参数详解](https://github.com/FanFanJUN/DailyLog/blob/master/nginx/NGINXdetail.md)
-
 - [10 分钟搭建自己的 Git 仓库](https://github.com/FanFanJUN/DailyLog/blob/master/docker/prigitlab.md)
-
 # Other
-
 ##### maven--plugin--pom--Usage
-
 - [maven-pom 文件详解](https://github.com/FanFanJUN/DailyLog/blob/master/other/maven.md)
 - [Apache Maven Assembly Plugin](http://maven.apache.org/plugins/maven-assembly-plugin/index.html)
 - [maven-assembly-plugin 入门指南](https://www.jianshu.com/p/14bcb17b99e0)
@@ -282,20 +225,13 @@ setTimeout(ws.reconnect, 10e3);
 - [利用 assembly 插件分环境打包配置文件](https://www.jianshu.com/p/7e7c7c95ff13)
 - [org.polago.maven.plugins---合并多个配置文件至一个文件](https://www.polago.org/merge-properties-maven-plugin/usage.html)
 - [maven-remote-resources-pluginmaven 多项目资源共享](https://maven.apache.org/plugins/maven-remote-resources-plugin/examples/sharing-resources.html)
-
 ##### [Github 远程仓库和本地文件的关联](https://github.com/FanFanJUN/DailyLog/blob/master/other/gitrelationgithub.md)
-
 ##### [echarts 自定义工具全屏](https://github.com/FanFanJUN/DailyLog/blob/master/other/echartsfullscreen.md)
-
 ##### [自建 ssr 服务器教程](https://github.com/FanFanJUN/DailyLog/blob/master/ssrbuild.md)
-
 ##### [张鑫旭 SVG 小图标](https://www.zhangxinxu.com/sp/icon/)
-
 ##### [mybatis 逻辑分页与物理分页](https://github.com/FanFanJUN/DailyLog/blob/master/background/mybatis逻辑分页与物理分页.md)
 # sql 系列
-
 ### 查看 mysql 版本
-
 ```
 mysql> select version();
 +------------+
@@ -305,18 +241,14 @@ mysql> select version();
 +------------+
 1 row in set (18.09 sec)
 ```
-
 ### 触发器
-
 ```
 CREATE TRIGGER `T` BEFORE INSERT ON `srm_source_list_line_copy1`
 FOR EACH ROW begin
 set new.srm_source_list_num=concat('IMH',lpad(((SELECT substring(srm_source_list_num,4,10) from srm_source_list_line_copy1 where srm_source_list_num=(select srm_source_list_num from srm_source_list_line_copy1  order by srm_source_list_num desc limit 1))+1),10,0));
 end;
 ```
-
 ### when then
-
 ```
 UPDATE srm_purchase_info_record_line_copy1 SET
 created_date = NOW(),last_edited_date = NOW(),tenant_code = '10000028',
@@ -328,15 +260,11 @@ purchase_info_remark = '历史数据',
 id = UUID(),
 project_category_code = case record_type_code when '0' Then '0' when '2' Then 'K' when '3' Then 'L' end;
 ```
-
 ### 迁移表字段数据（列名数一样）
-
 ```
 INSERT INTO  user2(`u_id`,`name`) SELECT `id`,`name`  FROM user;
 ```
-
 ### length concat
-
 ```
 UPDATE srm_source_list_line SET
 srm_source_list_item_num = CONCAT('000',srm_source_list_item_num,0) WHERE LENGTH(srm_source_list_item_num) = 1;
@@ -344,36 +272,26 @@ srm_source_list_item_num = CONCAT('000',srm_source_list_item_num,0) WHERE LENGTH
 UPDATE srm_source_list_line SET
 srm_source_list_item_num = CONCAT('00',srm_source_list_item_num,0) WHERE LENGTH(srm_source_list_item_num) = 2;
 ```
-
 ### 索引
-
 ```
  ALTER table baf_sap_material_group_map_purchase_group ADD INDEX business_unit(business_unit);
 
 ```
-
 ### 函数
 
 - MID()函数 - 用于得到一个字符串的一部分 这个函数被 MySQL 支持，但不被 MS SQL Server 和 Oracle 支持。在 SQL Server， Oracle 数据库中，我们可以使用 SQL SUBSTRING 函数或者 SQL SUBSTR 函数作为替代。
 
 ```
-
 SELECT MID(ColumnName, Start [, Length]) FROM TableName;
 
 mysql> SELECT MID('NowaMagic', 5, 5);  -Magic
-
-
 ```
-
 ### 查看执行进程
-
 ```
 show processlist;
 杀死进程 kill id
 ```
-
 ### 导出数据库表详细设计
-
 ```
 SELECT
 COLUMN_NAME 字段名称,
@@ -389,7 +307,6 @@ AND
 -- user为表名，到时候换成你要导出的表的名称
 -- 如果不写的话，默认会查询出所有表中的数据，这样可能就分不清到底哪些字段是哪张表中的了
 table_name = 'srm_calibration_head_info'
-
 
 
 查询表所有信息
@@ -412,5 +329,4 @@ AND
 -- user为表名，到时候换成你要导出的表的名称
 -- 如果不写的话，默认会查询出所有表中的数据，这样可能就分不清到底哪些字段是哪张表中的了
 table_name = 'srm_calibration_head_info';
-
 ```
