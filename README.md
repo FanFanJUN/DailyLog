@@ -53,6 +53,12 @@
 - [js 中的循环删除](https://github.com/FanFanJUN/DailyLog/blob/master/js/js中的循环删除.pdf)
 - 判断两对象是否相等（别用 === ）
 - [JS 获取指定字符的前/后值](https://www.cnblogs.com/fdxjava/p/11698541.html)
+##### 其他相关
+- 跨域
+![image](https://github.com/FanFanJUN/DailyLog/blob/master/img/跨域.png)
+1. [九种跨域方式实现原理（完整版）](https://github.com/ljianshu/Blog/issues/55)
+2. [浏览器同源政策及其规避方法](https://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)
+3. [跨域资源共享 CORS详解](https://www.ruanyifeng.com/blog/2016/04/cors.html)
 # React 系列
 #### [Virtual DOM 与diff算法 ](https://github.com/livoras/blog/issues/13)
 - [揭秘Vue中的Virtual Dom](https://github.com/ljianshu/Blog/issues/69)
