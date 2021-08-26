@@ -61,10 +61,21 @@
 3. [跨域资源共享 CORS详解](https://www.ruanyifeng.com/blog/2016/04/cors.html)
 # React 系列
 #### [Virtual DOM 与diff算法 ](https://github.com/livoras/blog/issues/13)
+```
+复杂视图情况下提升渲染性能,因为虚拟DOM+Diff算法可以精准找到DOM树变更的地方,减少DOM的操作(重排重绘)
+```
 - [揭秘Vue中的Virtual Dom](https://github.com/ljianshu/Blog/issues/69)
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom)
 - [snabbdom](https://github.com/snabbdom/snabbdom)
+- snabbdom核心
+```
+1. init()设置模块.创建patch()函数
+2. 使用h()函数创建JavaScript对象(Vnode)描述真实DOM
+3. patch()比较新旧两个Vnode
+4. 把变化的内容更新到真实DOM树
+```
 - [diff 算法深入一下？](https://zhuanlan.zhihu.com/p/401340016)
+- [DIff算法图解](https://juejin.cn/post/7000266544181674014)
 #### [React生命周期](https://github.com/FanFanJUN/DailyLog/blob/master/react/ReactLifeStyle.pdf)
 #### React性能优化
 - shouldComponentUpdate、PureComponent、React.memo(避免不必要的渲染)
