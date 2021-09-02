@@ -1,0 +1,63 @@
+<!--
+ * @Author       : LiCai
+ * @connect      : 1981824361@qq.com
+ * @Date         : 2021-08-25 14:28:23
+ * @LastEditors  : LiCai
+ * @LastEditTime : 2021-08-26 14:13:18
+ * @Description  : TODO
+ * @FilePath     : /DailyLog/css/cssStu/选择器/html1.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            border: 10px red solid;
+            box-sizing: border-box;
+            /* outline: 10px royalblue solid; */
+            float: left;
+        }
+        .box:hover {
+            box-shadow: 10px 5px 10px rgba(0, 0, 0, .3);
+            border-radius: 1px;
+        }
+        #one {
+            color: red;
+        }
+        .two {
+            color: royalblue;
+        }
+        .sectwo {
+            font-size: larger;
+        }
+        p > h1 {
+            color:red;
+        }
+        ul li {
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div>
+        <ul>
+            <li id='one'>1</li>
+            <li class='two sectwo'>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+        <p>
+            测试
+            <h1>H1</h1>
+        </p>
+    </div>
+</body>
+</html>

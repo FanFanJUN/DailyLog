@@ -1,0 +1,72 @@
+<!--
+ * @Author       : LiCai
+ * @connect      : 1981824361@qq.com
+ * @Date         : 2021-09-02 15:50:40
+ * @LastEditors  : LiCai
+ * @LastEditTime : 2021-09-02 15:54:39
+ * @Description  : TODO
+ * @FilePath     : /DailyLog/css/cssStu/浮动/父元素添加伪元素.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100%;
+            border: 1px red solid;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            float: left;
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            background-color: lightsalmon;
+            float: left;
+            margin-right: 10px;
+        }
+        .footer {
+            height: 200px;
+            width: 100%;
+            background-color: burlywood;
+        }
+        .clearfix::after {
+            content: '';
+            display: block;
+            visibility: hidden;
+            clear: both;
+            display: block;
+            height: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box clearfix">
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+            
+        </div>
+        <div class="box2">
+            
+        </div>
+        <div class="box2">
+            
+        </div>
+        <div class="box2">
+            
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+</html>
