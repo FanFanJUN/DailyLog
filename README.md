@@ -61,6 +61,8 @@
 3. [跨域资源共享 CORS详解](https://www.ruanyifeng.com/blog/2016/04/cors.html)
 # CSS、HTML系列
 - [你需要掌握的HTML和CSS](https://github.com/FanFanJUN/DailyLog/issues/5)
+- [Flex 布局教程：语法篇-阮一峰](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+- [Flex 布局示例](http://static.vgee.cn/static/index.html)
 # React 系列
 #### [Virtual DOM 与diff算法 ](https://github.com/livoras/blog/issues/13)
 ```
