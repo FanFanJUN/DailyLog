@@ -1,0 +1,47 @@
+<!--
+ * @Author       : LiCai
+ * @connect      : 1981824361@qq.com
+ * @Date         : 2021-09-07 17:29:57
+ * @LastEditors  : LiCai
+ * @LastEditTime : 2021-09-07 17:32:55
+ * @Description  : TODO
+ * @FilePath     : /DailyLog/css/cssStu/flex布局/flex.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+
+.div1 {
+    min-height: 20vh;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+.div1>article {
+    background-color: aqua;
+    flex: auto;
+    height: 40%;
+}
+
+.div1>header,
+.div1 footer {
+    background-color: rgb(46, 223, 140);
+    height: 30%;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <header>HEADER</header>
+        <article>CONTENT</article>
+        <footer>FOOTER</footer>
+    </div>    
+</body>
+</html>

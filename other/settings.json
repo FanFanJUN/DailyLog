@@ -1,0 +1,11 @@
+{
+    "prettier.singleQuote": true, // 使用单引号代替双引号
+    "prettier.semi": true, // 句尾添加分号
+    "prettier.useTabs": false, // 缩进不使用tab，使用空格
+    "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+    "prettier.printWidth": 100, // 超过最大值换行
+    "prettier.tabWidth": 4,
+    "editor.fontLigatures": false,
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "JetBrains Mono",
+}
