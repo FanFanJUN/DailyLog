@@ -63,6 +63,8 @@
 - [你需要掌握的HTML和CSS](https://github.com/FanFanJUN/DailyLog/issues/5)
 - [Flex 布局教程：语法篇-阮一峰](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 - [Flex 布局示例](http://static.vgee.cn/static/index.html)
+- [实现元素水平垂直居中的 N 种方式](https://github.com/sisterAn/blog/issues/119)
+- [如何居中一个元素（终结版）](https://github.com/ljianshu/Blog/issues/29)
 # React 系列
 #### [Virtual DOM 与diff算法 ](https://github.com/livoras/blog/issues/13)
 ```
