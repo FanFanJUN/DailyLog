@@ -65,6 +65,7 @@
 - [Flex 布局示例](http://static.vgee.cn/static/index.html)
 - [实现元素水平垂直居中的 N 种方式](https://github.com/sisterAn/blog/issues/119)
 - [如何居中一个元素（终结版）](https://github.com/ljianshu/Blog/issues/29)
+- [HTML5](https://juejin.cn/post/6844904066926002189)
 # React 系列
 #### [Virtual DOM 与diff算法 ](https://github.com/livoras/blog/issues/13)
 ```
