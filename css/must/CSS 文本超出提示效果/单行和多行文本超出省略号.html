@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS高级常见技巧汇总</title>
+  <style type="text/css">
+   /*容器*/
+   .container {
+      width: 300px;
+      height: 200px;
+      margin: 100px;
+      padding: 20px;
+      border: 1px solid #eee;
+      font-size: 13px;
+      color: #555;
+    }
+ 
+    .c-red {
+      color: red;
+    }
+ 
+    p {
+      background-color: rgba(189, 227, 255, 0.28);
+      padding: 2px 5px;
+    }
+ 
+    /*单行*/
+    .single {
+      width: 300px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      word-break: break-all;
+    }
+ 
+    /*多行*/
+    .mutiple {
+      display: -webkit-box; /*重点，不能用block等其他，将对象作为弹性伸缩盒子模型显示*/
+      -webkit-box-orient: vertical; /*从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）*/
+      -webkit-line-clamp: 3; /*行数，超出三行隐藏且多余的用省略号表示...*/
+      line-clamp: 3;
+      word-break: break-all;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <p class="single">
+          <span class="c-red">单行溢出：</span>《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，
+          全面介绍 ECMAScript 6 新引入的语法特性。
+        </p>
+        <p class="mutiple">
+          <span class="c-red">多行溢出：</span>《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，
+          全面介绍 ECMAScript 6 新引入的语法特性。本书覆盖 ES6 与上一个版本 ES5 的所有不同之处，
+          对涉及的语法知识给予详细介绍，并给出大量简洁易懂的示例代码。
+        </p>
+      </div>
+</body>
+</html>
