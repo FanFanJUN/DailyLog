@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>https://juejin.cn/post/7025794464404733966 CSS 实现搜索相关交互</title>
 </head>
 <style>
     html,
@@ -44,7 +44,7 @@
     }
 
     [type=search]::-webkit-search-cancel-button:hover {
-        opacity: .6;
+        opacity: .6; /* 透明度 */
     }
 
     .input:valid+.clear {
@@ -57,7 +57,7 @@
         box-shadow: 0 2px 5px rgb(0 0 0 / 25%);
         min-width: 200px;
         visibility: hidden;
-        opacity: 0;
+        opacity: 0; /* 完全透明，元素不可见 */
         transform: translateY(10px);
         /* transition: .2s; */
     }
@@ -72,10 +72,11 @@
         color: inherit;
     }
 
+    /* 输入框有内容（:valid），并且在聚焦情况下（:focus）才显示，配合兄弟选择器~ */
     .input:focus:valid~.search-list,
     .search-list:active {
         visibility: visible;
-        opacity: 1;
+        opacity: 1; /* 完全不透明，元素可见 */
         transform: translateY(0);
     }
 
