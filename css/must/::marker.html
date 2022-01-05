@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  h3 {
+    counter-increment: h3;
+    display: list-item;
+  }
+
+  h3::marker {
+    display: list-item;
+    content: "#"counter(h3) " ";
+    color: lightsalmon;
+    font-weight: bold;
+  }
+
+  div {
+    counter-reset: h3;
+    line-height: 1.4;
+    font-family: system-ui;
+    margin: 3rem;
+  }
+</style>
+
+<body>
+  <div>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <h3>Itaque sequi eaque earum laboriosam.</h3>
+    <p>Ratione culpa reprehenderit beatae quaerat voluptatibus, debitis iusto?</p>
+    <h3>Laudantium sapiente commodi quidem excepturi!</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+</body>
+
+</html>
