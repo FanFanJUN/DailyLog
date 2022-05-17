@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .skill_three_con_item_frame {
+        width: 36px;
+        height: 36px;
+        background: #1890ff;
+        border: 1px solid #1890ff;
+        position: relative;
+        margin-right: 30px;
+        border-radius: 50%;
+    }
+
+    .skill_three_con_item_frame:before,
+    .skill_three_con_item_frame::after {
+        content: "";
+        height: 52px;
+        width: 4px;
+        border-radius: 10px;
+        display: block;
+        background: white;
+        position: absolute;
+        top: -19px;
+        left: 31px;
+        transform: rotate(42deg);
+        -ms-transform: rotate(45deg);
+    }
+
+    .skill_three_con_item_frame::before {
+        height: 18px;
+        transform: rotate(320deg);
+        -ms-transform: rotate(-45deg);
+        position: absolute;
+        top: 11px;
+        left: 9px;
+    }
+</style>
+
+<body>
+    <p class="skill_three_con_item_frame"></p>
+</body>
+
+</html>

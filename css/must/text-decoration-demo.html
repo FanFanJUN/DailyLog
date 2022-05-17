@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://codepen.io/Chokcoco/pen/VwmEpqj</title>
+</head>
+<style>
+    * {
+        overflow-x: hidden;
+        background: #fff;
+        color: #333;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90vw;
+        margin: 2rem auto;
+    }
+
+    .thickness {
+        width: 100%;
+    }
+
+    .underline-offset {
+        width: 100%;
+    }
+
+    .box {
+        width: 20%;
+        padding: 5px;
+    }
+
+    h2 {
+        line-height: 2.5;
+        /* increased line-height so that text-decoration thickness is unaffected */
+    }
+
+    p {
+        font-family: sans-serif;
+        font-size: 1.1em;
+    }
+
+    .underline {
+        text-decoration: underline;
+        text-decoration-color: #dd6ff8;
+    }
+
+    .solid {
+        text-decoration-style: solid;
+    }
+
+    .dotted {
+        text-decoration-style: dotted;
+    }
+
+    .dashed {
+        text-decoration-style: dashed;
+    }
+
+    .wavy {
+        text-decoration-style: wavy;
+    }
+
+    .overline {
+        text-decoration-line: overline;
+        text-decoration-color: #dd6ff8;
+    }
+
+    .underline-overline {
+        text-decoration-line: underline overline;
+        text-decoration-color: #dd6ff8;
+    }
+
+    .line-through {
+        text-decoration: line-through;
+        text-decoration-color: #dd6ff8;
+    }
+
+    .thickness {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thin {
+        text-decoration-thickness: 1.5px;
+    }
+
+    .normal {
+        text-decoration-thickness: 2.5px;
+    }
+
+    .thick {
+        text-decoration-thickness: 6px;
+    }
+
+    .underline-offset {
+        justify-content: center;
+        display: flex;
+    }
+
+    .double {
+        text-decoration-style: double;
+    }
+
+    .offset {
+        text-underline-offset: 4px;
+    }
+
+    .wavy.offset {
+        text-underline-offset: 8px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .box {
+            justify-content: center;
+            width: 100%;
+            margin: 1rem auto;
+        }
+
+        .thickness,
+        .underline-offset {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="solid underline">solid</h2>
+            <p>text-decoration: underline;</p>
+            <p>text-decoration-style: solid;</p>
+        </div>
+        <div class="box">
+            <h2 class="dotted underline">dotted</h2>
+            <p>text-decoration: underline;</p>
+            <p>text-decoration-style: dotted;</p>
+        </div>
+        <div class="box">
+            <h2 class="dashed underline">dashed</h2>
+            <p>text-decoration: underline;</p>
+            <p>text-decoration-style: dashed;</p>
+        </div>
+        <div class="box">
+            <h2 class="wavy underline">wavy</h2>
+            <p>text-decoration: underline;</p>
+            <p>text-decoration-style: wavy;</p>
+        </div>
+        <div class="box">
+            <h2 class="underline">underline</h2>
+            <p>text-decoration: underline;</p>
+        </div>
+        <div class="box">
+            <h2 class="overline">overline</h2>
+            <p>text-decoration: overline;</p>
+        </div>
+        <div class="box">
+            <h2 class="underline-overline">underline/overline</h2>
+            <p>text-decoration: underline overline;</p>
+        </div>
+        <div class="box">
+            <h2 class="line-through">line-through</h2>
+            <p>text-decoration: line-through;</p>
+        </div>
+
+        <div class="thickness">
+            <div class="box">
+                <h2 class="thin underline">thin</h2>
+                <p>text-decoration-thickness: 1.5px;</p>
+            </div>
+            <div class="box">
+                <h2 class="normal underline">normal</h2>
+                <p>text-decoration-thickness: 2.5px;</p>
+            </div>
+            <div class="box">
+                <h2 class="thick underline">thick</h2>
+                <p>text-decoration-thickness: 6px;</p>
+            </div>
+        </div>
+
+        <div class="underline-offset">
+            <div class="box">
+                <h2 class="underline double">double</h2>
+                <p>text-decoration: double;</p>
+                <p>text-decoration-style: solid;</p>
+            </div>
+            <div class="box">
+                <h2 class="underline double offset">double offset</h2>
+                <p>text-decoration: double;</p>
+                <p>text-decoration-style: solid;</p>
+                <p>text-decoration-offset: 6px;</p>
+            </div>
+            <div class="box">
+                <h2 class="underline wavy">wavy</h2>
+                <p>text-decoration: underline;</p>
+                <p>text-decoration-style: wavy;</p>
+            </div>
+            <div class="box">
+                <h2 class="underline wavy offset">wavy offset</h2>
+                <p>text-decoration: underline;</p>
+                <p>text-decoration-style: wavy;</p>
+                <p>text-decoration-offset: 8px;</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
