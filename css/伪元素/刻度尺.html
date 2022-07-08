@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>testy</title>
+</head>
+<style>
+    body {
+        background: black;
+    }
+    .ruler {
+        position: relative;
+        width: 70%;
+        margin: 20px auto;
+        height: 14px;
+        background: linear-gradient(180deg, rgba(46, 156, 253, 0.13) 0%, rgba(46, 156, 253, 0.26) 100%);
+    }
+
+    .ruler .cm,
+    .ruler .mm {
+        position: absolute;
+        border-left: 1px solid #31FBFB;
+        height: 14px;
+        width: 10%;
+        color: #ffff;
+    }
+
+    .ruler .cm:after {
+        position: absolute;
+        bottom: -15px;
+        font: 11px/1 sans-serif;
+    }
+
+    .ruler .mm {
+        height: 5px;
+    }
+
+    .ruler .mm:nth-of-type(5) {
+        height: 10px;
+    }
+
+    .ruler .cm:nth-of-type(1) {
+        left: 0%;
+    }
+
+    .ruler .cm:nth-of-type(1):after {
+        content: attr(data-title);
+    }
+
+    .ruler .cm:nth-of-type(2) {
+        left: 10%;
+    }
+
+    .ruler .cm:nth-of-type(2):after {
+        content: "1";
+    }
+
+    .ruler .cm:nth-of-type(3) {
+        left: 20%;
+    }
+
+    .ruler .cm:nth-of-type(3):after {
+        content: "2";
+    }
+
+    .ruler .cm:nth-of-type(4) {
+        left: 30%;
+    }
+
+    .ruler .cm:nth-of-type(4):after {
+        content: "3";
+    }
+
+    .ruler .cm:nth-of-type(5) {
+        left: 40%;
+    }
+
+    .ruler .cm:nth-of-type(5):after {
+        content: "4";
+    }
+
+    .ruler .cm:nth-of-type(6) {
+        left: 50%;
+    }
+
+    .ruler .cm:nth-of-type(6):after {
+        content: "5";
+    }
+
+    .ruler .cm:nth-of-type(7) {
+        left: 60%;
+    }
+
+    .ruler .cm:nth-of-type(7):after {
+        content: "6";
+    }
+
+    .ruler .cm:nth-of-type(8) {
+        left: 70%;
+    }
+
+    .ruler .cm:nth-of-type(8):after {
+        content: "7";
+    }
+
+    .ruler .cm:nth-of-type(9) {
+        left: 80%;
+    }
+
+    .ruler .cm:nth-of-type(9):after {
+        content: "8";
+    }
+
+    .ruler .cm:nth-of-type(10) {
+        left: 90%;
+    }
+
+    .ruler .cm:nth-of-type(10):after {
+        content: "9";
+    }
+
+    .ruler .cm:nth-of-type(11) {
+        left: 100%;
+    }
+
+    .ruler .cm:nth-of-type(11):after {
+        content: "10";
+    }
+
+    .ruler .mm:nth-of-type(1) {
+        left: 10%;
+    }
+
+    .ruler .mm:nth-of-type(2) {
+        left: 20%;
+    }
+
+    .ruler .mm:nth-of-type(3) {
+        left: 30%;
+    }
+
+    .ruler .mm:nth-of-type(4) {
+        left: 40%;
+    }
+
+    .ruler .mm:nth-of-type(5) {
+        left: 50%;
+    }
+
+    .ruler .mm:nth-of-type(6) {
+        left: 60%;
+    }
+
+    .ruler .mm:nth-of-type(7) {
+        left: 70%;
+    }
+
+    .ruler .mm:nth-of-type(8) {
+        left: 80%;
+    }
+
+    .ruler .mm:nth-of-type(9) {
+        left: 90%;
+    }
+
+    .ruler .mm:nth-of-type(10) {
+        left: 100%;
+    }
+
+    #mentionme {
+        text-align: center;
+        margin-top: 10%;
+    }
+</style>
+
+<body>
+    <div class='ruler'>
+        <div class='cm' data-title="0">
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+            <div class='mm'></div>
+        </div>
+        <div class='cm'></div>
+    </div>
+    <div id="mentionme">
+        by <a href="https://www.linkedin.com/in/artur-arsalanov-ab3a6895" target="_blank"
+            title="Find me in  LinkedIn!">ArturArsalanov</a>
+    </div>
+</body>
+
+</html>
